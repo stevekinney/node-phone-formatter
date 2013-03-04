@@ -1,0 +1,35 @@
+{
+  "name": "phone-formatter",
+  "description": "Parse and format telephone numbers.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/stevekinney/node-phone-formatter",
+  "author": {
+    "name": "Steve Kinney",
+    "email": "hello@stevekinney.net",
+    "url": "http://stevekinney.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stevekinney/node-phone-formatter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stevekinney/node-phone-formatter/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/stevekinney/phone-formatter/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "devDependencies": {
+    "mocha": "~1.8.1"
+  },
+  "keywords": []
+}

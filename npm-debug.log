@@ -1,0 +1,1417 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'jshint' ]
+2 info using npm@1.1.61
+3 info using node@v0.6.12
+4 verbose node symlink /usr/local/bin/node
+5 verbose read json /usr/local/lib/package.json
+6 verbose read json /usr/local/lib/package.json
+7 verbose cache add [ 'jshint', null ]
+8 silly cache add name=undefined spec="jshint" args=["jshint",null]
+9 verbose parsed url { pathname: 'jshint', path: 'jshint', href: 'jshint' }
+10 silly lockFile da5c03cb-jshint jshint
+11 verbose lock jshint /Users/stevekinney/.npm/da5c03cb-jshint.lock
+12 silly lockFile da5c03cb-jshint jshint
+13 verbose addNamed [ 'jshint', '' ]
+14 verbose addNamed [ null, '' ]
+15 silly lockFile a02a2468-jshint jshint@
+16 verbose lock jshint@ /Users/stevekinney/.npm/a02a2468-jshint.lock
+17 silly addNameRange { name: 'jshint', range: '', hasData: false }
+18 verbose url raw jshint
+19 verbose url resolving [ 'http://registry.npmjs.org/', './jshint' ]
+20 verbose url resolved http://registry.npmjs.org/jshint
+21 info trying registry request attempt 1 at 10:58:53
+22 verbose etag "4EP3HAAYXQNG3E3JUCHQO5DC3"
+23 http GET http://registry.npmjs.org/jshint
+24 http 200 http://registry.npmjs.org/jshint
+25 silly registry.get cb [ 200,
+25 silly registry.get   { 'proxy-connection': 'Keep-Alive',
+25 silly registry.get     connection: 'Keep-Alive',
+25 silly registry.get     'content-length': '101022',
+25 silly registry.get     via: '1.1 ES00IPRXY22',
+25 silly registry.get     date: 'Mon, 04 Mar 2013 15:58:54 GMT',
+25 silly registry.get     'content-type': 'application/json',
+25 silly registry.get     etag: '"BCR3H5CG7PHK4ODF49WGR4BCT"',
+25 silly registry.get     server: 'CouchDB/1.2.1 (Erlang OTP/R15B03)',
+25 silly registry.get     vary: 'Accept' } ]
+26 silly addNameRange number 2 { name: 'jshint', range: '', hasData: true }
+27 silly addNameRange versions [ 'jshint',
+27 silly addNameRange   [ '0.1.8',
+27 silly addNameRange     '0.1.9',
+27 silly addNameRange     '0.2.0',
+27 silly addNameRange     '0.2.1',
+27 silly addNameRange     '0.2.2',
+27 silly addNameRange     '0.2.3',
+27 silly addNameRange     '0.3.0',
+27 silly addNameRange     '0.3.1',
+27 silly addNameRange     '0.4.0',
+27 silly addNameRange     '0.5.0',
+27 silly addNameRange     '0.5.1',
+27 silly addNameRange     '0.5.2',
+27 silly addNameRange     '0.5.3',
+27 silly addNameRange     '0.5.4',
+27 silly addNameRange     '0.5.5',
+27 silly addNameRange     '0.5.6',
+27 silly addNameRange     '0.5.7',
+27 silly addNameRange     '0.5.8',
+27 silly addNameRange     '0.5.9',
+27 silly addNameRange     '0.6.0',
+27 silly addNameRange     '0.6.1',
+27 silly addNameRange     '0.6.2',
+27 silly addNameRange     '0.6.3',
+27 silly addNameRange     '0.7.0',
+27 silly addNameRange     '0.7.1',
+27 silly addNameRange     '0.7.2',
+27 silly addNameRange     '0.7.3',
+27 silly addNameRange     '0.8.0',
+27 silly addNameRange     '0.8.1',
+27 silly addNameRange     '0.8.2',
+27 silly addNameRange     '0.9.0',
+27 silly addNameRange     '0.9.1',
+27 silly addNameRange     '1.0.0' ] ]
+28 verbose addNamed [ 'jshint', '1.0.0' ]
+29 verbose addNamed [ '1.0.0', '1.0.0' ]
+30 silly lockFile e8e33945-jshint-1-0-0 jshint@1.0.0
+31 verbose lock jshint@1.0.0 /Users/stevekinney/.npm/e8e33945-jshint-1-0-0.lock
+32 silly lockFile 9b9ea8a9-pmjs-org-jshint-jshint-1-0-0-tgz http://registry.npmjs.org/jshint/-/jshint-1.0.0.tgz
+33 verbose lock http://registry.npmjs.org/jshint/-/jshint-1.0.0.tgz /Users/stevekinney/.npm/9b9ea8a9-pmjs-org-jshint-jshint-1-0-0-tgz.lock
+34 verbose addRemoteTarball [ 'http://registry.npmjs.org/jshint/-/jshint-1.0.0.tgz',
+34 verbose addRemoteTarball   'dcd5b7adf776a9f65197990b61fcfa71a3256f03' ]
+35 info retry fetch attempt 1 at 10:58:54
+36 verbose fetch to= /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412734485-0.6457919613458216/tmp.tgz
+37 http GET http://registry.npmjs.org/jshint/-/jshint-1.0.0.tgz
+38 http 200 http://registry.npmjs.org/jshint/-/jshint-1.0.0.tgz
+39 silly shasum updated bytes 40960
+40 silly shasum updated bytes 40960
+41 silly shasum updated bytes 40960
+42 silly shasum updated bytes 40960
+43 silly shasum updated bytes 40960
+44 silly shasum updated bytes 40960
+45 silly shasum updated bytes 40960
+46 silly shasum updated bytes 40960
+47 silly shasum updated bytes 40960
+48 silly shasum updated bytes 40960
+49 silly shasum updated bytes 40960
+50 silly shasum updated bytes 40960
+51 silly shasum updated bytes 40960
+52 silly shasum updated bytes 40960
+53 silly shasum updated bytes 40960
+54 silly shasum updated bytes 40960
+55 silly shasum updated bytes 40960
+56 silly shasum updated bytes 40960
+57 silly shasum updated bytes 40960
+58 silly shasum updated bytes 40960
+59 silly shasum updated bytes 40960
+60 silly shasum updated bytes 40960
+61 silly shasum updated bytes 40960
+62 silly shasum updated bytes 40960
+63 silly shasum updated bytes 40960
+64 silly shasum updated bytes 40960
+65 silly shasum updated bytes 40960
+66 silly shasum updated bytes 40960
+67 silly shasum updated bytes 40960
+68 silly shasum updated bytes 40960
+69 silly shasum updated bytes 40960
+70 silly shasum updated bytes 40960
+71 silly shasum updated bytes 17523
+72 info shasum dcd5b7adf776a9f65197990b61fcfa71a3256f03
+72 info shasum /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412734485-0.6457919613458216/tmp.tgz
+73 verbose tar unpack /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412734485-0.6457919613458216/tmp.tgz
+74 silly lockFile 06f1cf65-34485-0-6457919613458216-package /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412734485-0.6457919613458216/package
+75 verbose lock /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412734485-0.6457919613458216/package /Users/stevekinney/.npm/06f1cf65-34485-0-6457919613458216-package.lock
+76 silly gunzTarPerm modes [ '755', '644' ]
+77 silly gunzTarPerm extractEntry package.json
+78 silly gunzTarPerm extractEntry .npmignore
+79 silly gunzTarPerm extractEntry README.md
+80 silly gunzTarPerm extractEntry LICENSE
+81 silly gunzTarPerm extractEntry make.js
+82 silly gunzTarPerm extractEntry examples/reporter.js
+83 silly gunzTarPerm extractEntry examples/.jshintignore
+84 silly gunzTarPerm extractEntry examples/.jshintrc
+85 silly gunzTarPerm extractEntry jshint.json
+86 silly gunzTarPerm extractEntry .travis.yml
+87 silly gunzTarPerm extractEntry CONTRIBUTING.md
+88 silly gunzTarPerm extractEntry bin/jshint
+89 silly gunzTarPerm extractEntry res/jshint.ai
+90 silly gunzTarPerm extractEntry src/cli/cli.js
+91 silly gunzTarPerm extractEntry src/next/constants.js
+92 silly gunzTarPerm extractEntry src/next/jshint.js
+93 silly gunzTarPerm extractEntry src/next/reason.js
+94 silly gunzTarPerm extractEntry src/next/regexp.js
+95 silly gunzTarPerm extractEntry src/next/utils.js
+96 silly gunzTarPerm extractEntry src/platforms/rhino.js
+97 silly gunzTarPerm extractEntry src/reporters/checkstyle.js
+98 silly gunzTarPerm extractEntry src/reporters/default.js
+99 silly gunzTarPerm extractEntry src/reporters/jslint_xml.js
+100 silly gunzTarPerm extractEntry src/reporters/non_error.js
+101 silly gunzTarPerm extractEntry src/shared/messages.js
+102 silly gunzTarPerm extractEntry src/shared/vars.js
+103 silly gunzTarPerm extractEntry src/stable/jshint.js
+104 silly gunzTarPerm extractEntry src/stable/lex.js
+105 silly gunzTarPerm extractEntry src/stable/reg.js
+106 silly gunzTarPerm extractEntry src/stable/state.js
+107 silly gunzTarPerm extractEntry src/stable/style.js
+108 silly gunzTarPerm extractEntry tests/cli.js
+109 silly gunzTarPerm extractEntry tests/next/fixtures/parser/comments.js
+110 silly gunzTarPerm extractEntry tests/next/fixtures/parser/simple_file.js
+111 silly gunzTarPerm extractEntry tests/next/fixtures/parser/tokens.json
+112 silly gunzTarPerm extractEntry tests/next/fixtures/reason/arguments.js
+113 silly gunzTarPerm extractEntry tests/next/fixtures/reason/comparison.js
+114 silly gunzTarPerm extractEntry tests/next/fixtures/reason/debugger.js
+115 silly gunzTarPerm extractEntry tests/next/fixtures/reason/esprima.js
+116 silly gunzTarPerm extractEntry tests/next/fixtures/reason/expr_in_test.js
+117 silly gunzTarPerm extractEntry tests/next/fixtures/reason/bitwise.js
+118 silly gunzTarPerm extractEntry tests/next/fixtures/reason/iterator.js
+119 silly gunzTarPerm extractEntry tests/next/fixtures/reason/native.js
+120 silly gunzTarPerm extractEntry tests/next/fixtures/reason/proto.js
+121 silly gunzTarPerm extractEntry tests/next/fixtures/reason/shadow.js
+122 silly gunzTarPerm extractEntry tests/next/fixtures/reason/trailing.js
+123 silly gunzTarPerm extractEntry tests/next/fixtures/reason/asi.js
+124 silly gunzTarPerm extractEntry tests/next/fixtures/reason/undef.js
+125 silly gunzTarPerm extractEntry tests/next/fixtures/reason/fifty.js
+126 silly gunzTarPerm extractEntry tests/next/fixtures/regexp/dashes.js
+127 silly gunzTarPerm extractEntry tests/next/fixtures/utils/simple_file.js
+128 silly gunzTarPerm extractEntry tests/next/lib/helpers.js
+129 silly gunzTarPerm extractEntry tests/next/unit/parser.js
+130 silly gunzTarPerm extractEntry tests/next/unit/reason.js
+131 silly gunzTarPerm extractEntry tests/next/unit/regexp.js
+132 silly gunzTarPerm extractEntry tests/next/unit/utils.js
+133 silly gunzTarPerm extractEntry tests/stable/helpers/coveraje.js
+134 silly gunzTarPerm extractEntry tests/stable/helpers/fixture.js
+135 silly gunzTarPerm extractEntry tests/stable/helpers/testhelper.js
+136 silly gunzTarPerm extractEntry tests/stable/regression/npm.js
+137 silly gunzTarPerm extractEntry tests/stable/regression/thirdparty.js
+138 silly gunzTarPerm extractEntry tests/stable/regression/libs/backbone.js
+139 silly gunzTarPerm extractEntry tests/stable/regression/libs/codemirror3.js
+140 silly gunzTarPerm extractEntry tests/stable/regression/libs/jquery-1.7.js
+141 silly gunzTarPerm extractEntry tests/stable/regression/libs/json2.js
+142 silly gunzTarPerm extractEntry tests/stable/regression/libs/lodash.js
+143 silly gunzTarPerm extractEntry tests/stable/regression/libs/prototype-17.js
+144 silly gunzTarPerm extractEntry tests/stable/unit/core.js
+145 silly gunzTarPerm extractEntry tests/stable/unit/envs.js
+146 silly gunzTarPerm extractEntry tests/stable/unit/options.js
+147 silly gunzTarPerm extractEntry tests/stable/unit/parser.js
+148 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/asi.js
+149 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/latedefundef.js
+150 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/laxbreak.js
+151 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/laxcomma.js
+152 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/latedef.js
+153 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/max-cyclomatic-complexity-per-function.js
+154 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/max-nested-block-depth-per-function.js
+155 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/max-parameters-per-function.js
+156 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/max-statements-per-function.js
+157 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/maxlen.js
+158 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/lastsemic.js
+159 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/missingspaces.js
+160 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/jslintRenamed.js
+161 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/nestedFunctions-locations.js
+162 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/jslintOptions.js
+163 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/nestedFunctions.js
+164 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/jslintInverted.js
+165 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/newcap.js
+166 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/insideEval.js
+167 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/noarg.js
+168 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/indent.js
+169 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/onevar.js
+170 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/immed.js
+171 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/protoiterator.js
+172 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/ignored.js
+173 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/quotes.js
+174 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/identifiers.js
+175 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/quotes2.js
+176 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/gruntComment.js
+177 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/quotes3.js
+178 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/gh668.js
+179 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/redef.js
+180 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/gh618.js
+181 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/regex_array.js
+182 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/gh56.js
+183 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/reserved.js
+184 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/gh431.js
+185 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/return.js
+186 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/gh247.js
+187 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/scope.js
+188 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/gh-334.js
+189 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/scripturl.js
+190 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/gh-226.js
+191 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/smarttabs.js
+192 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/functionScopedOptions.js
+193 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/strict_incorrect.js
+194 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/forin.js
+195 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/strict_newcap.js
+196 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/exported.js
+197 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/strict_this.js
+198 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/es5Reserved.js
+199 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/strict_this2.js
+200 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/es5.js
+201 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/strict_violations.js
+202 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/es5.funcexpr.js
+203 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/strings.js
+204 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/eqeqeq.js
+205 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/supernew.js
+206 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/emptystmt.js
+207 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/switchDefaultFirst.js
+208 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/curly2.js
+209 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/switchFallThrough.js
+210 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/curly.js
+211 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/trycatch.js
+212 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/const.js
+213 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/undef.js
+214 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/comma.js
+215 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/undef_func.js
+216 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/caseExpressions.js
+217 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/undefstrict.js
+218 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/camelcase.js
+219 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/unused.js
+220 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/browser.js
+221 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/unusedglobals.js
+222 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/boss.js
+223 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/white.js
+224 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/blocks.js
+225 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/with.js
+226 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/loopfunc.js
+227 verbose read json /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412734485-0.6457919613458216/package/package.json
+228 silly lockFile 06f1cf65-34485-0-6457919613458216-package /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412734485-0.6457919613458216/package
+229 verbose from cache /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412734485-0.6457919613458216/package/package.json
+230 verbose tar pack [ '/Users/stevekinney/.npm/jshint/1.0.0/package.tgz',
+230 verbose tar pack   '/var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412734485-0.6457919613458216/package' ]
+231 verbose tarball /Users/stevekinney/.npm/jshint/1.0.0/package.tgz
+232 verbose folder /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412734485-0.6457919613458216/package
+233 silly lockFile 8e610334-ney-npm-jshint-1-0-0-package-tgz /Users/stevekinney/.npm/jshint/1.0.0/package.tgz
+234 verbose lock /Users/stevekinney/.npm/jshint/1.0.0/package.tgz /Users/stevekinney/.npm/8e610334-ney-npm-jshint-1-0-0-package-tgz.lock
+235 silly lockFile 8e610334-ney-npm-jshint-1-0-0-package-tgz /Users/stevekinney/.npm/jshint/1.0.0/package.tgz
+236 silly lockFile 7f91526b-ekinney-npm-jshint-1-0-0-package /Users/stevekinney/.npm/jshint/1.0.0/package
+237 verbose lock /Users/stevekinney/.npm/jshint/1.0.0/package /Users/stevekinney/.npm/7f91526b-ekinney-npm-jshint-1-0-0-package.lock
+238 silly lockFile 7f91526b-ekinney-npm-jshint-1-0-0-package /Users/stevekinney/.npm/jshint/1.0.0/package
+239 verbose tar unpack /Users/stevekinney/.npm/jshint/1.0.0/package.tgz
+240 silly lockFile 7f91526b-ekinney-npm-jshint-1-0-0-package /Users/stevekinney/.npm/jshint/1.0.0/package
+241 verbose lock /Users/stevekinney/.npm/jshint/1.0.0/package /Users/stevekinney/.npm/7f91526b-ekinney-npm-jshint-1-0-0-package.lock
+242 silly gunzTarPerm modes [ '755', '644' ]
+243 silly gunzTarPerm extractEntry package.json
+244 silly gunzTarPerm extractEntry .npmignore
+245 silly gunzTarPerm extractEntry README.md
+246 silly gunzTarPerm extractEntry LICENSE
+247 silly gunzTarPerm extractEntry make.js
+248 silly gunzTarPerm extractEntry examples/reporter.js
+249 silly gunzTarPerm extractEntry examples/.jshintignore
+250 silly gunzTarPerm extractEntry examples/.jshintrc
+251 silly gunzTarPerm extractEntry jshint.json
+252 silly gunzTarPerm extractEntry .travis.yml
+253 silly gunzTarPerm extractEntry CONTRIBUTING.md
+254 silly gunzTarPerm extractEntry bin/jshint
+255 silly gunzTarPerm extractEntry res/jshint.ai
+256 silly gunzTarPerm extractEntry src/cli/cli.js
+257 silly gunzTarPerm extractEntry src/next/constants.js
+258 silly gunzTarPerm extractEntry src/next/jshint.js
+259 silly gunzTarPerm extractEntry src/next/reason.js
+260 silly gunzTarPerm extractEntry src/next/regexp.js
+261 silly gunzTarPerm extractEntry src/next/utils.js
+262 silly gunzTarPerm extractEntry src/platforms/rhino.js
+263 silly gunzTarPerm extractEntry src/reporters/checkstyle.js
+264 silly gunzTarPerm extractEntry src/reporters/default.js
+265 silly gunzTarPerm extractEntry src/reporters/jslint_xml.js
+266 silly gunzTarPerm extractEntry src/reporters/non_error.js
+267 silly gunzTarPerm extractEntry src/shared/messages.js
+268 silly gunzTarPerm extractEntry src/shared/vars.js
+269 silly gunzTarPerm extractEntry src/stable/jshint.js
+270 silly gunzTarPerm extractEntry src/stable/lex.js
+271 silly gunzTarPerm extractEntry src/stable/reg.js
+272 silly gunzTarPerm extractEntry src/stable/state.js
+273 silly gunzTarPerm extractEntry src/stable/style.js
+274 silly gunzTarPerm extractEntry tests/cli.js
+275 silly gunzTarPerm extractEntry tests/next/fixtures/parser/comments.js
+276 silly gunzTarPerm extractEntry tests/next/fixtures/parser/simple_file.js
+277 silly gunzTarPerm extractEntry tests/next/fixtures/parser/tokens.json
+278 silly gunzTarPerm extractEntry tests/next/fixtures/reason/arguments.js
+279 silly gunzTarPerm extractEntry tests/next/fixtures/reason/comparison.js
+280 silly gunzTarPerm extractEntry tests/next/fixtures/reason/debugger.js
+281 silly gunzTarPerm extractEntry tests/next/fixtures/reason/esprima.js
+282 silly gunzTarPerm extractEntry tests/next/fixtures/reason/expr_in_test.js
+283 silly gunzTarPerm extractEntry tests/next/fixtures/reason/bitwise.js
+284 silly gunzTarPerm extractEntry tests/next/fixtures/reason/iterator.js
+285 silly gunzTarPerm extractEntry tests/next/fixtures/reason/native.js
+286 silly gunzTarPerm extractEntry tests/next/fixtures/reason/proto.js
+287 silly gunzTarPerm extractEntry tests/next/fixtures/reason/shadow.js
+288 silly gunzTarPerm extractEntry tests/next/fixtures/reason/trailing.js
+289 silly gunzTarPerm extractEntry tests/next/fixtures/reason/asi.js
+290 silly gunzTarPerm extractEntry tests/next/fixtures/reason/undef.js
+291 silly gunzTarPerm extractEntry tests/next/fixtures/reason/fifty.js
+292 silly gunzTarPerm extractEntry tests/next/fixtures/regexp/dashes.js
+293 silly gunzTarPerm extractEntry tests/next/fixtures/utils/simple_file.js
+294 silly gunzTarPerm extractEntry tests/next/lib/helpers.js
+295 silly gunzTarPerm extractEntry tests/next/unit/parser.js
+296 silly gunzTarPerm extractEntry tests/next/unit/reason.js
+297 silly gunzTarPerm extractEntry tests/next/unit/regexp.js
+298 silly gunzTarPerm extractEntry tests/next/unit/utils.js
+299 silly gunzTarPerm extractEntry tests/stable/helpers/coveraje.js
+300 silly gunzTarPerm extractEntry tests/stable/helpers/fixture.js
+301 silly gunzTarPerm extractEntry tests/stable/helpers/testhelper.js
+302 silly gunzTarPerm extractEntry tests/stable/regression/npm.js
+303 silly gunzTarPerm extractEntry tests/stable/regression/thirdparty.js
+304 silly gunzTarPerm extractEntry tests/stable/regression/libs/backbone.js
+305 silly gunzTarPerm extractEntry tests/stable/regression/libs/codemirror3.js
+306 silly gunzTarPerm extractEntry tests/stable/regression/libs/jquery-1.7.js
+307 silly gunzTarPerm extractEntry tests/stable/regression/libs/json2.js
+308 silly gunzTarPerm extractEntry tests/stable/regression/libs/lodash.js
+309 silly gunzTarPerm extractEntry tests/stable/regression/libs/prototype-17.js
+310 silly gunzTarPerm extractEntry tests/stable/unit/core.js
+311 silly gunzTarPerm extractEntry tests/stable/unit/envs.js
+312 silly gunzTarPerm extractEntry tests/stable/unit/options.js
+313 silly gunzTarPerm extractEntry tests/stable/unit/parser.js
+314 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/asi.js
+315 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/latedefundef.js
+316 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/laxbreak.js
+317 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/laxcomma.js
+318 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/latedef.js
+319 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/max-cyclomatic-complexity-per-function.js
+320 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/max-nested-block-depth-per-function.js
+321 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/max-parameters-per-function.js
+322 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/max-statements-per-function.js
+323 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/maxlen.js
+324 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/lastsemic.js
+325 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/missingspaces.js
+326 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/jslintRenamed.js
+327 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/nestedFunctions-locations.js
+328 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/jslintOptions.js
+329 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/nestedFunctions.js
+330 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/jslintInverted.js
+331 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/newcap.js
+332 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/insideEval.js
+333 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/noarg.js
+334 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/indent.js
+335 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/onevar.js
+336 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/immed.js
+337 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/protoiterator.js
+338 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/ignored.js
+339 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/quotes.js
+340 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/identifiers.js
+341 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/quotes2.js
+342 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/gruntComment.js
+343 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/quotes3.js
+344 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/gh668.js
+345 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/redef.js
+346 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/gh618.js
+347 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/regex_array.js
+348 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/gh56.js
+349 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/reserved.js
+350 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/gh431.js
+351 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/return.js
+352 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/gh247.js
+353 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/scope.js
+354 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/gh-334.js
+355 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/scripturl.js
+356 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/gh-226.js
+357 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/smarttabs.js
+358 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/functionScopedOptions.js
+359 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/strict_incorrect.js
+360 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/forin.js
+361 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/strict_newcap.js
+362 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/exported.js
+363 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/strict_this.js
+364 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/es5Reserved.js
+365 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/strict_this2.js
+366 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/es5.js
+367 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/strict_violations.js
+368 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/es5.funcexpr.js
+369 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/strings.js
+370 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/eqeqeq.js
+371 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/supernew.js
+372 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/emptystmt.js
+373 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/switchDefaultFirst.js
+374 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/curly2.js
+375 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/switchFallThrough.js
+376 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/curly.js
+377 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/trycatch.js
+378 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/const.js
+379 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/undef.js
+380 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/comma.js
+381 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/undef_func.js
+382 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/caseExpressions.js
+383 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/undefstrict.js
+384 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/camelcase.js
+385 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/unused.js
+386 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/browser.js
+387 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/unusedglobals.js
+388 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/boss.js
+389 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/white.js
+390 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/blocks.js
+391 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/with.js
+392 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/loopfunc.js
+393 verbose read json /Users/stevekinney/.npm/jshint/1.0.0/package/package.json
+394 silly lockFile 7f91526b-ekinney-npm-jshint-1-0-0-package /Users/stevekinney/.npm/jshint/1.0.0/package
+395 silly shasum updated bytes 40960
+396 silly shasum updated bytes 40960
+397 silly shasum updated bytes 40960
+398 silly shasum updated bytes 40960
+399 silly shasum updated bytes 40960
+400 silly shasum updated bytes 40960
+401 silly shasum updated bytes 40960
+402 silly shasum updated bytes 40960
+403 silly shasum updated bytes 40960
+404 silly shasum updated bytes 40960
+405 silly shasum updated bytes 40960
+406 silly shasum updated bytes 40960
+407 silly shasum updated bytes 40960
+408 silly shasum updated bytes 40960
+409 silly shasum updated bytes 40960
+410 silly shasum updated bytes 40960
+411 silly shasum updated bytes 40960
+412 silly shasum updated bytes 40960
+413 silly shasum updated bytes 40960
+414 silly shasum updated bytes 40960
+415 silly shasum updated bytes 40960
+416 silly shasum updated bytes 40960
+417 silly shasum updated bytes 40960
+418 silly shasum updated bytes 40960
+419 silly shasum updated bytes 40960
+420 silly shasum updated bytes 40960
+421 silly shasum updated bytes 40960
+422 silly shasum updated bytes 40960
+423 silly shasum updated bytes 40960
+424 silly shasum updated bytes 40960
+425 silly shasum updated bytes 40960
+426 silly shasum updated bytes 40960
+427 silly shasum updated bytes 17527
+428 info shasum 13baaddafab33a7d808f6834c75f2fa8e81d8011
+428 info shasum /Users/stevekinney/.npm/jshint/1.0.0/package.tgz
+429 verbose from cache /Users/stevekinney/.npm/jshint/1.0.0/package/package.json
+430 verbose chmod /Users/stevekinney/.npm/jshint/1.0.0/package.tgz 644
+431 verbose chown /Users/stevekinney/.npm/jshint/1.0.0/package.tgz [ 502, 20 ]
+432 silly lockFile 9b9ea8a9-pmjs-org-jshint-jshint-1-0-0-tgz http://registry.npmjs.org/jshint/-/jshint-1.0.0.tgz
+433 silly lockFile e8e33945-jshint-1-0-0 jshint@1.0.0
+434 silly lockFile a02a2468-jshint jshint@
+435 silly resolved [ { name: 'jshint',
+435 silly resolved     version: '1.0.0',
+435 silly resolved     homepage: 'http://jshint.com/',
+435 silly resolved     description: 'Static analysis tool for JavaScript',
+435 silly resolved     author:
+435 silly resolved      { name: 'Anton Kovalyov',
+435 silly resolved        email: 'anton@kovalyov.net',
+435 silly resolved        url: 'http://anton.kovalyov.net/' },
+435 silly resolved     bin: { jshint: './bin/jshint' },
+435 silly resolved     scripts: { test: 'node ./make.js test', lint: 'node ./make.js lint' },
+435 silly resolved     main: './src/stable/jshint.js',
+435 silly resolved     dependencies:
+435 silly resolved      { esprima: 'https://github.com/ariya/esprima/tarball/master',
+435 silly resolved        shelljs: '*',
+435 silly resolved        underscore: '*',
+435 silly resolved        peakle: '*',
+435 silly resolved        cli: '0.4.3',
+435 silly resolved        minimatch: '0.x.x' },
+435 silly resolved     devDependencies:
+435 silly resolved      { jshint: '*',
+435 silly resolved        shelljs: '*',
+435 silly resolved        browserify: '*',
+435 silly resolved        coveraje: '*',
+435 silly resolved        nodeunit: '*',
+435 silly resolved        sinon: '*' },
+435 silly resolved     preferGlobal: true,
+435 silly resolved     readme: 'JSHint, A Static Code Analysis Tool for JavaScript\n==================================================\n\nJSHint is a community-driven tool to detect errors and potential problems in\nJavaScript code and to enforce your team\'s coding conventions. We made JSHint\nvery flexible so you can easily adjust it to your particular coding guidelines\nand the environment you expect your code to execute in.\n\nOur goal is to help JavaScript developers write complex programs without\nworrying about typos and language gotchas.\n\nWe believe that static code analysis programs—as well as other code quality\ntools—are important and beneficial to the JavaScript community and, thus,\nshould not alienate their users.\n\nFor general usage information, visit our website:\n[http://jshint.com/](http://jshint.com/).\n\nJSHint Fundraiser / Bug Bounties\n--------------------------------\n\nWe\'re [running a fundraiser](https://www.bountysource.com/#fundraisers/91-jshint)\nfor JSHint! If JSHint helps you in your day-to-day development, please consider\ndonating.  All money raised on this page will be used as monetary rewards for\nfixing JSHint bugs and implementing new features. Our hope is to introduce more\ndevelopers to JSHint hacking and boost its development.\n\n**Rules**:\n\n1. All funds (aside from fees) will be used only to fund bounties.\n2. If core team ends up fixing bounty bugs, the reward will be donated to the Electronic Frontier Foundation.\n3. Before marking bugs as fixed, all patches must be reviewed by a core team member.\n\nThanks!\n\nReporting a bug\n---------------\n\nTo report a bug simply create a\n[new GitHub Issue](https://github.com/jshint/jshint/issues/new) and describe\nyour problem or suggestion. We welcome all kind of feedback regarding\nJSHint including but not limited to:\n\n * When JSHint doesn\'t work as expected\n * When JSHint complains about valid JavaScript code that works in all browsers\n * When you simply want a new option or feature\n\nBefore reporting a bug look around to see if there are any open or closed tickets\nthat cover your issue. And remember the wisdom: pull request > bug report > tweet.\n\nInstallation\n------------\n\nYou can install JSHint via NPM:\n\n\tnpm install jshint -g\n\nWe also provide platform wrappers for Rhino, JavaScriptCore and Windows Script\nHost. To use them, clone this repo and run our build command:\n\n\tnode make.js\n\nUsage\n-----\n\n    jshint -h\n\nYou can also require JSHint itself as a module.\n\n    var jshint = require(\'jshint\');\n\nNote: If you are using npm v1.x be sure to install jshint locally (without the -g\nflag) or link it globally.\n\nCustom Reporters\n----------------\n\nSpecify a custom reporter module (see example/reporter.js).\n\n    --reporter path/to/reporter.js\n\nUse a jslint compatible xml reporter.\n\n    --jslint-reporter\n\nShow additional non-error data generated by jshint (unused globals etc).\n\n    --show-non-errors\n\nConfiguration Options\n---------------------\n\n**Note:** This behavior described below is very different from versions\nprior to `0.6`.\n\nThe CLI uses the default options that come with JSHint. Only one extra\noption is unique to the CLI version of JSHint: `globals` allows you to\ndefine an object of globals that get ignored for every file.\n\nTo have your own configuration apply, there are several methods you can\nuse:\n\n### Specify Manually\n\nSetting the `--config=/path/to/your/config` command line option to specify\nyour own configuration file outside of the directory tree for your project.\n\n### Within your Project\'s Directory Tree\n\nWhen the CLI is called, and a configuration file isn\'t specified already,\n`node-jshint` will attempt to locate one for you starting in `pwd`. (or\n"present working directory") If this does not yield a `.jshintrc` file,\nit will move one level up (`..`) the directory tree all the way up to\nthe filesystem root. If a file is found, it stops immediately and uses\nthat set of configuration.\n\nThis setup allows you to set up **one** configuration file for your entire\nproject. (place it in the root folder) As long as you run `jshint` from\nanywhere within your project directory tree, the same configuration file\nwill be used.\n\n### Home Directory\n\nIf all the methods above do not yield a `.jshintrc` to use, the last place\nthat will be checked is your user\'s `$HOME` directory.\n\n## File Extensions\n\nDefault extension for files is ".js". If you want to use JSHint with other\nfile extensions (.json), you need to pass this extra extension as an\noption:\n\n    --extra-ext .json\n\n## Ignoring Files and Directories\n\nIf there is a .jshintignore file in your project\'s directory tree, (also\nprovided you run `jshint` from within your project\'s directory) then any\ndirectories or files specified will be skipped over. (behaves just like\na `.gitignore` file)\n\n**Note:** Pattern matching uses minimatch, with the nocase\n[option](https://github.com/isaacs/minimatch). When there is no match,\nit performs a left side match (when no forward slashes present and path\nis a directory).\n\nUsing JSHint as a library\n-------------------------\n\nIt is easy to use JSHint as a JavaScript library. Just install the package\nwith NPM and, in your code, import a global `JSHINT` function:\n\n    var JSHINT = require("jshint").JSHINT;\n\nThis function takes two parameters. The first parameter is either a string\nor an array of strings. If it is a string, it will be split on \'\\n\' or\n\'\\r\'. If it is an array of strings, it is assumed that each string\nrepresents one line. The source can be a JavaScript text or a JSON text.\n\nThe second parameter is an optional object of options which control the\noperation of JSHINT. Most of the options are booleans: they are all\noptional and have a default value of false.\n\nThe third parameter is an object of global variables, with keys as names\nand a boolean value to determine if they are assignable.\n\nIf it checks out, JSHINT returns true. Otherwise, it returns false.\n\nIf false, you can inspect JSHINT.errors to find out the problems.\nJSHINT.errors is an array of objects containing these members:\n\n    {\n      line      : The line (relative to 1) at which the lint was found\n      character : The character (relative to 1) at which the lint was found\n      reason    : The problem\n      evidence  : The text line in which the problem occured\n      scope     : The scope of the problem.\n      raw       : The raw message before the details were inserted\n      a         : The first detail\n      b         : The second detail\n      c         : The third detail\n      d         : The fourth detail\n    }\n\nIf a fatal error was found, a null will be the last element of the\nJSHINT.errors array.\n\nYou can request a data structure which contains JSHint\'s results.\n\n    var myData = JSHINT.data();\n\nIt returns a structure with this form:\n\n    {\n      errors: [\n        {\n          line       : NUMBER,\n          character  : NUMBER,\n          reason     : STRING,\n          evidence   : STRING\n        }\n      ],\n        functions: [\n        name         : STRING,\n        line         : NUMBER,\n        character    : NUMBER,\n        last         : NUMBER,\n        lastcharacter: NUMBER,\n        param        : [ STRING ],\n        closure      : [ STRING ],\n        var          : [ STRING ],\n        exception    : [ STRING ],\n        outer        : [ STRING ],\n        unused       : [ STRING ],\n        global       : [ STRING ],\n        label        : [ STRING ]\n      ],\n      globals: [\n        STRING\n      ],\n      member: {\n        STRING: NUMBER\n      },\n      unused: [\n        {\n          name       : STRING,\n          line       : NUMBER\n        }\n      ],\n      implieds: [\n        {\n          name: STRING,\n          line: NUMBER\n        }\n      ],\n      urls: [\n        STRING\n      ],\n      json: BOOLEAN\n    }\n\nEmpty array will not be included.\n\n\nFAQ\n---\n\n#### How do I turn off "mixed tabs and spaces" warning?\n\nIf you\'re using so-called [smart tabs](http://www.emacswiki.org/SmartTabs)\nthen we have an option `smarttabs` for you. Otherwise, your solution is to\nrun JSHint with a custom reporter that discards any warnings you don\'t like.\nFor example, this [example reporter](https://gist.github.com/3885619)\ndiscards all warnings about mixed tabs and spaces.\n\nContributing\n------------\n\nLook for a file named `CONTRIBUTING.md` in this repository. It contains our\ncontributing guidelines. We also have\n[a mailing list](http://groups.google.com/group/jshint/).\n\nLicense\n-------\n\nJSHint is distributed under the MIT License. One file and one file only\n(src/stable/jshint.js) is distributed under the slightly modified MIT License.\n\nAttribution\n-----------\n\nCore Team members:\n\n * [Anton Kovalyov](http://anton.kovalyov.net/) ([@valueof](http://twitter.com/valueof))\n * [Wolfgang Kluge](http://klugesoftware.de/) ([blog](http://gehirnwindung.de/))\n * [Josh Perez](http://www.goatslacker.com/) ([@goatslacker](http://twitter.com/goatslacker))\n * [Brent Lintner](http://brentlintner.heroku.com/) ([@brentlintner](http://twitter.com/brentlintner))\n\nMaintainer: Anton Kovalyov\n\nThank you!\n----------\n\nWe really appreciate all kind of feedback and contributions. Thanks for using and supporting JSHint!\n',
+435 silly resolved     _id: 'jshint@1.0.0',
+435 silly resolved     dist: { shasum: '13baaddafab33a7d808f6834c75f2fa8e81d8011' },
+435 silly resolved     _from: 'jshint' } ]
+436 info install jshint@1.0.0 into /usr/local/lib
+437 info installOne jshint@1.0.0
+438 verbose from cache /Users/stevekinney/.npm/jshint/1.0.0/package/package.json
+439 info /usr/local/lib/node_modules/jshint unbuild
+440 verbose read json /usr/local/lib/node_modules/jshint/package.json
+441 verbose tar unpack /Users/stevekinney/.npm/jshint/1.0.0/package.tgz
+442 silly lockFile 60c9d5e1-sr-local-lib-node-modules-jshint /usr/local/lib/node_modules/jshint
+443 verbose lock /usr/local/lib/node_modules/jshint /Users/stevekinney/.npm/60c9d5e1-sr-local-lib-node-modules-jshint.lock
+444 silly gunzTarPerm modes [ '755', '644' ]
+445 silly gunzTarPerm extractEntry package.json
+446 silly gunzTarPerm extractEntry .npmignore
+447 silly gunzTarPerm extractEntry README.md
+448 silly gunzTarPerm extractEntry LICENSE
+449 silly gunzTarPerm extractEntry make.js
+450 silly gunzTarPerm extractEntry examples/reporter.js
+451 silly gunzTarPerm extractEntry examples/.jshintignore
+452 silly gunzTarPerm extractEntry examples/.jshintrc
+453 silly gunzTarPerm extractEntry jshint.json
+454 silly gunzTarPerm extractEntry .travis.yml
+455 silly gunzTarPerm extractEntry CONTRIBUTING.md
+456 silly gunzTarPerm extractEntry bin/jshint
+457 silly gunzTarPerm extractEntry res/jshint.ai
+458 silly gunzTarPerm extractEntry src/cli/cli.js
+459 silly gunzTarPerm extractEntry src/next/constants.js
+460 silly gunzTarPerm extractEntry src/next/jshint.js
+461 silly gunzTarPerm extractEntry src/next/reason.js
+462 silly gunzTarPerm extractEntry src/next/regexp.js
+463 silly gunzTarPerm extractEntry src/next/utils.js
+464 silly gunzTarPerm extractEntry src/platforms/rhino.js
+465 silly gunzTarPerm extractEntry src/reporters/checkstyle.js
+466 silly gunzTarPerm extractEntry src/reporters/default.js
+467 silly gunzTarPerm extractEntry src/reporters/jslint_xml.js
+468 silly gunzTarPerm extractEntry src/reporters/non_error.js
+469 silly gunzTarPerm extractEntry src/shared/messages.js
+470 silly gunzTarPerm extractEntry src/shared/vars.js
+471 silly gunzTarPerm extractEntry src/stable/jshint.js
+472 silly gunzTarPerm extractEntry src/stable/lex.js
+473 silly gunzTarPerm extractEntry src/stable/reg.js
+474 silly gunzTarPerm extractEntry src/stable/state.js
+475 silly gunzTarPerm extractEntry src/stable/style.js
+476 silly gunzTarPerm extractEntry tests/cli.js
+477 silly gunzTarPerm extractEntry tests/next/fixtures/parser/comments.js
+478 silly gunzTarPerm extractEntry tests/next/fixtures/parser/simple_file.js
+479 silly gunzTarPerm extractEntry tests/next/fixtures/parser/tokens.json
+480 silly gunzTarPerm extractEntry tests/next/fixtures/reason/arguments.js
+481 silly gunzTarPerm extractEntry tests/next/fixtures/reason/comparison.js
+482 silly gunzTarPerm extractEntry tests/next/fixtures/reason/debugger.js
+483 silly gunzTarPerm extractEntry tests/next/fixtures/reason/esprima.js
+484 silly gunzTarPerm extractEntry tests/next/fixtures/reason/expr_in_test.js
+485 silly gunzTarPerm extractEntry tests/next/fixtures/reason/bitwise.js
+486 silly gunzTarPerm extractEntry tests/next/fixtures/reason/iterator.js
+487 silly gunzTarPerm extractEntry tests/next/fixtures/reason/native.js
+488 silly gunzTarPerm extractEntry tests/next/fixtures/reason/proto.js
+489 silly gunzTarPerm extractEntry tests/next/fixtures/reason/shadow.js
+490 silly gunzTarPerm extractEntry tests/next/fixtures/reason/trailing.js
+491 silly gunzTarPerm extractEntry tests/next/fixtures/reason/asi.js
+492 silly gunzTarPerm extractEntry tests/next/fixtures/reason/undef.js
+493 silly gunzTarPerm extractEntry tests/next/fixtures/reason/fifty.js
+494 silly gunzTarPerm extractEntry tests/next/fixtures/regexp/dashes.js
+495 silly gunzTarPerm extractEntry tests/next/fixtures/utils/simple_file.js
+496 silly gunzTarPerm extractEntry tests/next/lib/helpers.js
+497 silly gunzTarPerm extractEntry tests/next/unit/parser.js
+498 silly gunzTarPerm extractEntry tests/next/unit/reason.js
+499 silly gunzTarPerm extractEntry tests/next/unit/regexp.js
+500 silly gunzTarPerm extractEntry tests/next/unit/utils.js
+501 silly gunzTarPerm extractEntry tests/stable/helpers/coveraje.js
+502 silly gunzTarPerm extractEntry tests/stable/helpers/fixture.js
+503 silly gunzTarPerm extractEntry tests/stable/helpers/testhelper.js
+504 silly gunzTarPerm extractEntry tests/stable/regression/npm.js
+505 silly gunzTarPerm extractEntry tests/stable/regression/thirdparty.js
+506 silly gunzTarPerm extractEntry tests/stable/regression/libs/backbone.js
+507 silly gunzTarPerm extractEntry tests/stable/regression/libs/codemirror3.js
+508 silly gunzTarPerm extractEntry tests/stable/regression/libs/jquery-1.7.js
+509 silly gunzTarPerm extractEntry tests/stable/regression/libs/json2.js
+510 silly gunzTarPerm extractEntry tests/stable/regression/libs/lodash.js
+511 silly gunzTarPerm extractEntry tests/stable/regression/libs/prototype-17.js
+512 silly gunzTarPerm extractEntry tests/stable/unit/core.js
+513 silly gunzTarPerm extractEntry tests/stable/unit/envs.js
+514 silly gunzTarPerm extractEntry tests/stable/unit/options.js
+515 silly gunzTarPerm extractEntry tests/stable/unit/parser.js
+516 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/asi.js
+517 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/latedefundef.js
+518 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/laxbreak.js
+519 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/laxcomma.js
+520 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/latedef.js
+521 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/max-cyclomatic-complexity-per-function.js
+522 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/max-nested-block-depth-per-function.js
+523 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/max-parameters-per-function.js
+524 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/max-statements-per-function.js
+525 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/maxlen.js
+526 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/lastsemic.js
+527 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/missingspaces.js
+528 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/jslintRenamed.js
+529 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/nestedFunctions-locations.js
+530 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/jslintOptions.js
+531 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/nestedFunctions.js
+532 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/jslintInverted.js
+533 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/newcap.js
+534 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/insideEval.js
+535 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/noarg.js
+536 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/indent.js
+537 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/onevar.js
+538 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/immed.js
+539 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/protoiterator.js
+540 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/ignored.js
+541 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/quotes.js
+542 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/identifiers.js
+543 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/quotes2.js
+544 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/gruntComment.js
+545 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/quotes3.js
+546 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/gh668.js
+547 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/redef.js
+548 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/gh618.js
+549 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/regex_array.js
+550 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/gh56.js
+551 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/reserved.js
+552 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/gh431.js
+553 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/return.js
+554 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/gh247.js
+555 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/scope.js
+556 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/gh-334.js
+557 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/scripturl.js
+558 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/gh-226.js
+559 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/smarttabs.js
+560 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/functionScopedOptions.js
+561 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/strict_incorrect.js
+562 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/forin.js
+563 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/strict_newcap.js
+564 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/exported.js
+565 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/strict_this.js
+566 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/es5Reserved.js
+567 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/strict_this2.js
+568 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/es5.js
+569 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/strict_violations.js
+570 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/es5.funcexpr.js
+571 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/strings.js
+572 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/eqeqeq.js
+573 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/supernew.js
+574 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/emptystmt.js
+575 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/switchDefaultFirst.js
+576 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/curly2.js
+577 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/switchFallThrough.js
+578 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/curly.js
+579 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/trycatch.js
+580 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/const.js
+581 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/undef.js
+582 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/comma.js
+583 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/undef_func.js
+584 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/caseExpressions.js
+585 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/undefstrict.js
+586 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/camelcase.js
+587 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/unused.js
+588 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/browser.js
+589 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/unusedglobals.js
+590 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/boss.js
+591 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/white.js
+592 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/blocks.js
+593 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/with.js
+594 silly gunzTarPerm extractEntry tests/stable/unit/fixtures/loopfunc.js
+595 verbose read json /usr/local/lib/node_modules/jshint/package.json
+596 silly lockFile 60c9d5e1-sr-local-lib-node-modules-jshint /usr/local/lib/node_modules/jshint
+597 info preinstall jshint@1.0.0
+598 verbose from cache /usr/local/lib/node_modules/jshint/package.json
+599 verbose readDependencies using package.json deps
+600 verbose from cache /usr/local/lib/node_modules/jshint/package.json
+601 verbose readDependencies using package.json deps
+602 verbose cache add [ 'esprima@https://github.com/ariya/esprima/tarball/master',
+602 verbose cache add   null ]
+603 silly cache add name=undefined spec="esprima@https://github.com/ariya/esprima/tarball/master" args=["esprima@https://github.com/ariya/esprima/tarball/master",null]
+604 verbose parsed url { pathname: 'esprima@https://github.com/ariya/esprima/tarball/master',
+604 verbose parsed url   path: 'esprima@https://github.com/ariya/esprima/tarball/master',
+604 verbose parsed url   href: 'esprima@https://github.com/ariya/esprima/tarball/master' }
+605 silly cache add name="esprima" spec="https://github.com/ariya/esprima/tarball/master" args=["esprima","https://github.com/ariya/esprima/tarball/master"]
+606 verbose parsed url { protocol: 'https:',
+606 verbose parsed url   slashes: true,
+606 verbose parsed url   host: 'github.com',
+606 verbose parsed url   hostname: 'github.com',
+606 verbose parsed url   href: 'https://github.com/ariya/esprima/tarball/master',
+606 verbose parsed url   pathname: '/ariya/esprima/tarball/master',
+606 verbose parsed url   path: '/ariya/esprima/tarball/master' }
+607 silly lockFile d0b8fe59-com-ariya-esprima-tarball-master https://github.com/ariya/esprima/tarball/master
+608 verbose lock https://github.com/ariya/esprima/tarball/master /Users/stevekinney/.npm/d0b8fe59-com-ariya-esprima-tarball-master.lock
+609 verbose addRemoteTarball [ 'https://github.com/ariya/esprima/tarball/master', null ]
+610 verbose cache add [ 'shelljs@*', null ]
+611 silly cache add name=undefined spec="shelljs@*" args=["shelljs@*",null]
+612 verbose parsed url { pathname: 'shelljs@*', path: 'shelljs@*', href: 'shelljs@*' }
+613 silly cache add name="shelljs" spec="*" args=["shelljs","*"]
+614 verbose parsed url { pathname: '*', path: '*', href: '*' }
+615 verbose addNamed [ 'shelljs', '*' ]
+616 verbose addNamed [ null, '' ]
+617 silly lockFile a9a49742-shelljs shelljs@*
+618 verbose lock shelljs@* /Users/stevekinney/.npm/a9a49742-shelljs.lock
+619 info retry fetch attempt 1 at 10:59:00
+620 verbose fetch to= /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412740833-0.6209884274285287/tmp.tgz
+621 silly addNameRange { name: 'shelljs', range: '', hasData: false }
+622 verbose cache add [ 'underscore@*', null ]
+623 silly cache add name=undefined spec="underscore@*" args=["underscore@*",null]
+624 verbose parsed url { pathname: 'underscore@*',
+624 verbose parsed url   path: 'underscore@*',
+624 verbose parsed url   href: 'underscore@*' }
+625 silly cache add name="underscore" spec="*" args=["underscore","*"]
+626 verbose parsed url { pathname: '*', path: '*', href: '*' }
+627 verbose addNamed [ 'underscore', '*' ]
+628 verbose addNamed [ null, '' ]
+629 silly lockFile 67e8a6a2-underscore underscore@*
+630 verbose lock underscore@* /Users/stevekinney/.npm/67e8a6a2-underscore.lock
+631 verbose cache add [ 'peakle@*', null ]
+632 silly cache add name=undefined spec="peakle@*" args=["peakle@*",null]
+633 verbose parsed url { pathname: 'peakle@*', path: 'peakle@*', href: 'peakle@*' }
+634 silly cache add name="peakle" spec="*" args=["peakle","*"]
+635 verbose parsed url { pathname: '*', path: '*', href: '*' }
+636 verbose addNamed [ 'peakle', '*' ]
+637 verbose addNamed [ null, '' ]
+638 silly lockFile 222df4d1-peakle peakle@*
+639 verbose lock peakle@* /Users/stevekinney/.npm/222df4d1-peakle.lock
+640 verbose cache add [ 'cli@0.4.3', null ]
+641 silly cache add name=undefined spec="cli@0.4.3" args=["cli@0.4.3",null]
+642 verbose parsed url { pathname: 'cli@0.4.3', path: 'cli@0.4.3', href: 'cli@0.4.3' }
+643 silly cache add name="cli" spec="0.4.3" args=["cli","0.4.3"]
+644 verbose parsed url { pathname: '0.4.3', path: '0.4.3', href: '0.4.3' }
+645 verbose addNamed [ 'cli', '0.4.3' ]
+646 verbose addNamed [ '0.4.3', '0.4.3' ]
+647 silly lockFile 67960ed5-cli-0-4-3 cli@0.4.3
+648 verbose lock cli@0.4.3 /Users/stevekinney/.npm/67960ed5-cli-0-4-3.lock
+649 verbose cache add [ 'minimatch@0.x.x', null ]
+650 silly cache add name=undefined spec="minimatch@0.x.x" args=["minimatch@0.x.x",null]
+651 verbose parsed url { pathname: 'minimatch@0.x.x',
+651 verbose parsed url   path: 'minimatch@0.x.x',
+651 verbose parsed url   href: 'minimatch@0.x.x' }
+652 silly cache add name="minimatch" spec="0.x.x" args=["minimatch","0.x.x"]
+653 verbose parsed url { pathname: '0.x.x', path: '0.x.x', href: '0.x.x' }
+654 verbose addNamed [ 'minimatch', '0.x.x' ]
+655 verbose addNamed [ null, '>=0.0.0- <1.0.0-' ]
+656 silly lockFile 38c78372-minimatch-0-x-x minimatch@0.x.x
+657 verbose lock minimatch@0.x.x /Users/stevekinney/.npm/38c78372-minimatch-0-x-x.lock
+658 http GET https://github.com/ariya/esprima/tarball/master
+659 silly addNameRange { name: 'underscore', range: '', hasData: false }
+660 silly addNameRange { name: 'minimatch', range: '>=0.0.0- <1.0.0-', hasData: false }
+661 silly addNameRange { name: 'peakle', range: '', hasData: false }
+662 verbose url raw peakle
+663 verbose url resolving [ 'http://registry.npmjs.org/', './peakle' ]
+664 verbose url resolved http://registry.npmjs.org/peakle
+665 info trying registry request attempt 1 at 10:59:00
+666 http GET http://registry.npmjs.org/peakle
+667 error fetch failed https://github.com/ariya/esprima/tarball/master
+668 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=socket hang up
+669 verbose url raw underscore
+670 verbose url resolving [ 'http://registry.npmjs.org/', './underscore' ]
+671 verbose url resolved http://registry.npmjs.org/underscore
+672 info trying registry request attempt 1 at 10:59:00
+673 verbose etag "3Y1MHGZCJLF41E9F6G986P3ZB"
+674 http GET http://registry.npmjs.org/underscore
+675 verbose url raw minimatch
+676 verbose url resolving [ 'http://registry.npmjs.org/', './minimatch' ]
+677 verbose url resolved http://registry.npmjs.org/minimatch
+678 info trying registry request attempt 1 at 10:59:00
+679 verbose etag "AXYQ2J2Q5MFJZYKCK0JGEPBTP"
+680 http GET http://registry.npmjs.org/minimatch
+681 verbose url raw shelljs
+682 verbose url resolving [ 'http://registry.npmjs.org/', './shelljs' ]
+683 verbose url resolved http://registry.npmjs.org/shelljs
+684 info trying registry request attempt 1 at 10:59:00
+685 verbose etag "DQHFSR0GGW1US7XKVJEMY3UHZ"
+686 http GET http://registry.npmjs.org/shelljs
+687 http 200 http://registry.npmjs.org/peakle
+688 silly registry.get cb [ 200,
+688 silly registry.get   { 'proxy-connection': 'Keep-Alive',
+688 silly registry.get     connection: 'Keep-Alive',
+688 silly registry.get     'content-length': '1074',
+688 silly registry.get     via: '1.1 ES00IPRXY22',
+688 silly registry.get     date: 'Mon, 04 Mar 2013 15:59:00 GMT',
+688 silly registry.get     'content-type': 'application/json',
+688 silly registry.get     etag: '"5RXJF4ETJ0COU712EU7QMQK3S"',
+688 silly registry.get     server: 'CouchDB/1.2.1 (Erlang OTP/R15B03)',
+688 silly registry.get     vary: 'Accept' } ]
+689 silly addNameRange number 2 { name: 'peakle', range: '', hasData: true }
+690 silly addNameRange versions [ 'peakle', [ '0.0.1' ] ]
+691 verbose addNamed [ 'peakle', '0.0.1' ]
+692 verbose addNamed [ '0.0.1', '0.0.1' ]
+693 silly lockFile b5e5d817-peakle-0-0-1 peakle@0.0.1
+694 verbose lock peakle@0.0.1 /Users/stevekinney/.npm/b5e5d817-peakle-0-0-1.lock
+695 verbose url raw cli/0.4.3
+696 verbose url resolving [ 'http://registry.npmjs.org/', './cli/0.4.3' ]
+697 verbose url resolved http://registry.npmjs.org/cli/0.4.3
+698 info trying registry request attempt 1 at 10:59:01
+699 verbose etag "C8ZF68V8JEX68XD7QAONUGCKH"
+700 http GET http://registry.npmjs.org/cli/0.4.3
+701 silly lockFile 08ae3b1f-pmjs-org-peakle-peakle-0-0-1-tgz http://registry.npmjs.org/peakle/-/peakle-0.0.1.tgz
+702 verbose lock http://registry.npmjs.org/peakle/-/peakle-0.0.1.tgz /Users/stevekinney/.npm/08ae3b1f-pmjs-org-peakle-peakle-0-0-1-tgz.lock
+703 verbose addRemoteTarball [ 'http://registry.npmjs.org/peakle/-/peakle-0.0.1.tgz',
+703 verbose addRemoteTarball   '286445d6a7733f17dc273501e2e0399f41b890e0' ]
+704 info retry fetch attempt 1 at 10:59:01
+705 verbose fetch to= /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741034-0.6826957182493061/tmp.tgz
+706 http GET http://registry.npmjs.org/peakle/-/peakle-0.0.1.tgz
+707 http 304 http://registry.npmjs.org/underscore
+708 silly registry.get cb [ 304,
+708 silly registry.get   { 'proxy-connection': 'Keep-Alive',
+708 silly registry.get     connection: 'Keep-Alive',
+708 silly registry.get     via: '1.1 ES00IPRXY22',
+708 silly registry.get     age: '0',
+708 silly registry.get     date: 'Mon, 04 Mar 2013 15:59:01 GMT' } ]
+709 verbose etag underscore from cache
+710 silly addNameRange number 2 { name: 'underscore', range: '', hasData: true }
+711 silly addNameRange versions [ 'underscore',
+711 silly addNameRange   [ '1.0.3',
+711 silly addNameRange     '1.0.4',
+711 silly addNameRange     '1.1.0',
+711 silly addNameRange     '1.1.1',
+711 silly addNameRange     '1.1.2',
+711 silly addNameRange     '1.1.3',
+711 silly addNameRange     '1.1.4',
+711 silly addNameRange     '1.1.5',
+711 silly addNameRange     '1.1.6',
+711 silly addNameRange     '1.1.7',
+711 silly addNameRange     '1.2.0',
+711 silly addNameRange     '1.2.1',
+711 silly addNameRange     '1.2.2',
+711 silly addNameRange     '1.2.3',
+711 silly addNameRange     '1.2.4',
+711 silly addNameRange     '1.3.0',
+711 silly addNameRange     '1.3.1',
+711 silly addNameRange     '1.3.2',
+711 silly addNameRange     '1.3.3',
+711 silly addNameRange     '1.4.0',
+711 silly addNameRange     '1.4.1',
+711 silly addNameRange     '1.4.2',
+711 silly addNameRange     '1.4.3',
+711 silly addNameRange     '1.4.4' ] ]
+712 verbose addNamed [ 'underscore', '1.4.4' ]
+713 verbose addNamed [ '1.4.4', '1.4.4' ]
+714 silly lockFile c6b5e825-underscore-1-4-4 underscore@1.4.4
+715 verbose lock underscore@1.4.4 /Users/stevekinney/.npm/c6b5e825-underscore-1-4-4.lock
+716 verbose read json /Users/stevekinney/.npm/underscore/1.4.4/package/package.json
+717 silly lockFile c6b5e825-underscore-1-4-4 underscore@1.4.4
+718 silly lockFile 67e8a6a2-underscore underscore@*
+719 http 200 http://registry.npmjs.org/peakle/-/peakle-0.0.1.tgz
+720 silly shasum updated bytes 2223
+721 info shasum 286445d6a7733f17dc273501e2e0399f41b890e0
+721 info shasum /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741034-0.6826957182493061/tmp.tgz
+722 verbose tar unpack /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741034-0.6826957182493061/tmp.tgz
+723 silly lockFile 17fdf3d9-41034-0-6826957182493061-package /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741034-0.6826957182493061/package
+724 verbose lock /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741034-0.6826957182493061/package /Users/stevekinney/.npm/17fdf3d9-41034-0-6826957182493061-package.lock
+725 silly gunzTarPerm modes [ '755', '644' ]
+726 silly gunzTarPerm extractEntry .npmignore
+727 silly gunzTarPerm extractEntry grunt.js
+728 silly gunzTarPerm extractEntry LICENSE
+729 http 200 http://registry.npmjs.org/cli/0.4.3
+730 silly registry.get cb [ 200,
+730 silly registry.get   { 'proxy-connection': 'Keep-Alive',
+730 silly registry.get     connection: 'Keep-Alive',
+730 silly registry.get     'content-length': '7506',
+730 silly registry.get     via: '1.1 ES00IPRXY22',
+730 silly registry.get     date: 'Mon, 04 Mar 2013 15:59:01 GMT',
+730 silly registry.get     'content-type': 'application/json',
+730 silly registry.get     etag: '"A6ZCWG2DB73MPZXNFCPT1HNEC"',
+730 silly registry.get     server: 'CouchDB/1.2.1 (Erlang OTP/R15B03)',
+730 silly registry.get     vary: 'Accept' } ]
+731 silly gunzTarPerm extractEntry package.json
+732 silly gunzTarPerm extractEntry peakle.js
+733 silly lockFile 2f36aec7-stry-npmjs-org-cli-cli-0-4-3-tgz http://registry.npmjs.org/cli/-/cli-0.4.3.tgz
+734 verbose lock http://registry.npmjs.org/cli/-/cli-0.4.3.tgz /Users/stevekinney/.npm/2f36aec7-stry-npmjs-org-cli-cli-0-4-3-tgz.lock
+735 verbose addRemoteTarball [ 'http://registry.npmjs.org/cli/-/cli-0.4.3.tgz',
+735 verbose addRemoteTarball   'e6819c8d5faa957f64f98f66a8506268c1d1f17d' ]
+736 silly gunzTarPerm extractEntry README
+737 silly gunzTarPerm extractEntry test.js
+738 info retry fetch attempt 1 at 10:59:01
+739 verbose fetch to= /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741204-0.39177195238880813/tmp.tgz
+740 http GET http://registry.npmjs.org/cli/-/cli-0.4.3.tgz
+741 verbose read json /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741034-0.6826957182493061/package/package.json
+742 silly lockFile 17fdf3d9-41034-0-6826957182493061-package /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741034-0.6826957182493061/package
+743 verbose from cache /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741034-0.6826957182493061/package/package.json
+744 verbose tar pack [ '/Users/stevekinney/.npm/peakle/0.0.1/package.tgz',
+744 verbose tar pack   '/var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741034-0.6826957182493061/package' ]
+745 verbose tarball /Users/stevekinney/.npm/peakle/0.0.1/package.tgz
+746 verbose folder /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741034-0.6826957182493061/package
+747 silly lockFile 58d2bb10-ney-npm-peakle-0-0-1-package-tgz /Users/stevekinney/.npm/peakle/0.0.1/package.tgz
+748 verbose lock /Users/stevekinney/.npm/peakle/0.0.1/package.tgz /Users/stevekinney/.npm/58d2bb10-ney-npm-peakle-0-0-1-package-tgz.lock
+749 silly lockFile 58d2bb10-ney-npm-peakle-0-0-1-package-tgz /Users/stevekinney/.npm/peakle/0.0.1/package.tgz
+750 silly lockFile e0b88b84-ekinney-npm-peakle-0-0-1-package /Users/stevekinney/.npm/peakle/0.0.1/package
+751 verbose lock /Users/stevekinney/.npm/peakle/0.0.1/package /Users/stevekinney/.npm/e0b88b84-ekinney-npm-peakle-0-0-1-package.lock
+752 silly lockFile e0b88b84-ekinney-npm-peakle-0-0-1-package /Users/stevekinney/.npm/peakle/0.0.1/package
+753 verbose tar unpack /Users/stevekinney/.npm/peakle/0.0.1/package.tgz
+754 silly lockFile e0b88b84-ekinney-npm-peakle-0-0-1-package /Users/stevekinney/.npm/peakle/0.0.1/package
+755 verbose lock /Users/stevekinney/.npm/peakle/0.0.1/package /Users/stevekinney/.npm/e0b88b84-ekinney-npm-peakle-0-0-1-package.lock
+756 silly gunzTarPerm modes [ '755', '644' ]
+757 silly gunzTarPerm extractEntry package.json
+758 silly gunzTarPerm extractEntry .npmignore
+759 silly gunzTarPerm extractEntry README
+760 silly gunzTarPerm extractEntry LICENSE
+761 silly gunzTarPerm extractEntry grunt.js
+762 silly gunzTarPerm extractEntry peakle.js
+763 silly gunzTarPerm extractEntry test.js
+764 verbose read json /Users/stevekinney/.npm/peakle/0.0.1/package/package.json
+765 silly lockFile e0b88b84-ekinney-npm-peakle-0-0-1-package /Users/stevekinney/.npm/peakle/0.0.1/package
+766 silly shasum updated bytes 2228
+767 info shasum 1abd65dfb422bac8b63d9558462ad9d8cad38a3c
+767 info shasum /Users/stevekinney/.npm/peakle/0.0.1/package.tgz
+768 verbose from cache /Users/stevekinney/.npm/peakle/0.0.1/package/package.json
+769 verbose chmod /Users/stevekinney/.npm/peakle/0.0.1/package.tgz 644
+770 verbose chown /Users/stevekinney/.npm/peakle/0.0.1/package.tgz [ 502, 20 ]
+771 silly lockFile 08ae3b1f-pmjs-org-peakle-peakle-0-0-1-tgz http://registry.npmjs.org/peakle/-/peakle-0.0.1.tgz
+772 silly lockFile b5e5d817-peakle-0-0-1 peakle@0.0.1
+773 silly lockFile 222df4d1-peakle peakle@*
+774 http 200 http://registry.npmjs.org/cli/-/cli-0.4.3.tgz
+775 http 200 http://registry.npmjs.org/shelljs
+776 silly registry.get cb [ 200,
+776 silly registry.get   { 'proxy-connection': 'Keep-Alive',
+776 silly registry.get     connection: 'Keep-Alive',
+776 silly registry.get     'content-length': '102999',
+776 silly registry.get     via: '1.1 ES00IPRXY22',
+776 silly registry.get     date: 'Mon, 04 Mar 2013 15:59:01 GMT',
+776 silly registry.get     'content-type': 'application/json',
+776 silly registry.get     etag: '"C0UYNSHQUJA820EDMRPLJ8LEK"',
+776 silly registry.get     server: 'CouchDB/1.2.1 (Erlang OTP/R15B03)',
+776 silly registry.get     vary: 'Accept' } ]
+777 silly addNameRange number 2 { name: 'shelljs', range: '', hasData: true }
+778 silly addNameRange versions [ 'shelljs',
+778 silly addNameRange   [ '0.0.1alpha1',
+778 silly addNameRange     '0.0.1',
+778 silly addNameRange     '0.0.2pre1',
+778 silly addNameRange     '0.0.2',
+778 silly addNameRange     '0.0.3',
+778 silly addNameRange     '0.0.4pre1',
+778 silly addNameRange     '0.0.4',
+778 silly addNameRange     '0.0.5pre1',
+778 silly addNameRange     '0.0.5pre2',
+778 silly addNameRange     '0.0.5pre3',
+778 silly addNameRange     '0.0.5pre4',
+778 silly addNameRange     '0.0.5',
+778 silly addNameRange     '0.0.6pre1',
+778 silly addNameRange     '0.0.6pre2',
+778 silly addNameRange     '0.0.6',
+778 silly addNameRange     '0.0.7',
+778 silly addNameRange     '0.0.8',
+778 silly addNameRange     '0.0.9',
+778 silly addNameRange     '0.1.0',
+778 silly addNameRange     '0.1.1',
+778 silly addNameRange     '0.1.2' ] ]
+779 verbose addNamed [ 'shelljs', '0.1.2' ]
+780 verbose addNamed [ '0.1.2', '0.1.2' ]
+781 silly lockFile de1e06d9-shelljs-0-1-2 shelljs@0.1.2
+782 verbose lock shelljs@0.1.2 /Users/stevekinney/.npm/de1e06d9-shelljs-0-1-2.lock
+783 silly lockFile 3aef078c-js-org-shelljs-shelljs-0-1-2-tgz http://registry.npmjs.org/shelljs/-/shelljs-0.1.2.tgz
+784 verbose lock http://registry.npmjs.org/shelljs/-/shelljs-0.1.2.tgz /Users/stevekinney/.npm/3aef078c-js-org-shelljs-shelljs-0-1-2-tgz.lock
+785 verbose addRemoteTarball [ 'http://registry.npmjs.org/shelljs/-/shelljs-0.1.2.tgz',
+785 verbose addRemoteTarball   '1619ff4e5267f669be14595821be1b716c7c74c0' ]
+786 info retry fetch attempt 1 at 10:59:01
+787 verbose fetch to= /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741775-0.26428110990673304/tmp.tgz
+788 http GET http://registry.npmjs.org/shelljs/-/shelljs-0.1.2.tgz
+789 silly shasum updated bytes 14533
+790 info shasum e6819c8d5faa957f64f98f66a8506268c1d1f17d
+790 info shasum /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741204-0.39177195238880813/tmp.tgz
+791 verbose tar unpack /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741204-0.39177195238880813/tmp.tgz
+792 silly lockFile 4ff7a570-1204-0-39177195238880813-package /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741204-0.39177195238880813/package
+793 verbose lock /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741204-0.39177195238880813/package /Users/stevekinney/.npm/4ff7a570-1204-0-39177195238880813-package.lock
+794 silly gunzTarPerm modes [ '755', '644' ]
+795 silly gunzTarPerm extractEntry package.json
+796 silly gunzTarPerm extractEntry README.md
+797 silly gunzTarPerm extractEntry cli.js
+798 silly gunzTarPerm extractEntry index.js
+799 silly gunzTarPerm extractEntry examples/cat.js
+800 silly gunzTarPerm extractEntry examples/command.js
+801 silly gunzTarPerm extractEntry examples/echo.js
+802 silly gunzTarPerm extractEntry examples/glob.js
+803 silly gunzTarPerm extractEntry examples/long_desc.js
+804 silly gunzTarPerm extractEntry examples/progress.js
+805 silly gunzTarPerm extractEntry examples/sort.js
+806 silly gunzTarPerm extractEntry examples/spinner.js
+807 silly gunzTarPerm extractEntry examples/static.js
+808 silly gunzTarPerm extractEntry examples/static.coffee
+809 verbose read json /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741204-0.39177195238880813/package/package.json
+810 silly lockFile 4ff7a570-1204-0-39177195238880813-package /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741204-0.39177195238880813/package
+811 verbose from cache /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741204-0.39177195238880813/package/package.json
+812 verbose tar pack [ '/Users/stevekinney/.npm/cli/0.4.3/package.tgz',
+812 verbose tar pack   '/var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741204-0.39177195238880813/package' ]
+813 verbose tarball /Users/stevekinney/.npm/cli/0.4.3/package.tgz
+814 verbose folder /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741204-0.39177195238880813/package
+815 silly lockFile eca49344-kinney-npm-cli-0-4-3-package-tgz /Users/stevekinney/.npm/cli/0.4.3/package.tgz
+816 verbose lock /Users/stevekinney/.npm/cli/0.4.3/package.tgz /Users/stevekinney/.npm/eca49344-kinney-npm-cli-0-4-3-package-tgz.lock
+817 silly lockFile eca49344-kinney-npm-cli-0-4-3-package-tgz /Users/stevekinney/.npm/cli/0.4.3/package.tgz
+818 silly lockFile 59ac6565-tevekinney-npm-cli-0-4-3-package /Users/stevekinney/.npm/cli/0.4.3/package
+819 verbose lock /Users/stevekinney/.npm/cli/0.4.3/package /Users/stevekinney/.npm/59ac6565-tevekinney-npm-cli-0-4-3-package.lock
+820 http 200 http://registry.npmjs.org/minimatch
+821 silly registry.get cb [ 200,
+821 silly registry.get   { 'proxy-connection': 'Keep-Alive',
+821 silly registry.get     connection: 'Keep-Alive',
+821 silly registry.get     'content-length': '133085',
+821 silly registry.get     via: '1.1 ES00IPRXY22',
+821 silly registry.get     date: 'Mon, 04 Mar 2013 15:59:01 GMT',
+821 silly registry.get     'content-type': 'application/json',
+821 silly registry.get     etag: '"EY7ZAJ5SVI7PZ6WD1KCIHC2BW"',
+821 silly registry.get     server: 'CouchDB/1.2.1 (Erlang OTP/R15B03)',
+821 silly registry.get     vary: 'Accept' } ]
+822 silly addNameRange number 2 { name: 'minimatch', range: '>=0.0.0- <1.0.0-', hasData: true }
+823 silly addNameRange versions [ 'minimatch',
+823 silly addNameRange   [ '0.0.1',
+823 silly addNameRange     '0.0.2',
+823 silly addNameRange     '0.0.4',
+823 silly addNameRange     '0.0.5',
+823 silly addNameRange     '0.1.1',
+823 silly addNameRange     '0.1.2',
+823 silly addNameRange     '0.1.3',
+823 silly addNameRange     '0.1.4',
+823 silly addNameRange     '0.1.5',
+823 silly addNameRange     '0.2.0',
+823 silly addNameRange     '0.2.2',
+823 silly addNameRange     '0.2.3',
+823 silly addNameRange     '0.2.4',
+823 silly addNameRange     '0.2.5',
+823 silly addNameRange     '0.2.6',
+823 silly addNameRange     '0.2.7',
+823 silly addNameRange     '0.2.8',
+823 silly addNameRange     '0.2.9',
+823 silly addNameRange     '0.2.10',
+823 silly addNameRange     '0.2.11' ] ]
+824 verbose addNamed [ 'minimatch', '0.2.11' ]
+825 verbose addNamed [ '0.2.11', '0.2.11' ]
+826 silly lockFile 9e75bdf0-minimatch-0-2-11 minimatch@0.2.11
+827 verbose lock minimatch@0.2.11 /Users/stevekinney/.npm/9e75bdf0-minimatch-0-2-11.lock
+828 silly lockFile 59ac6565-tevekinney-npm-cli-0-4-3-package /Users/stevekinney/.npm/cli/0.4.3/package
+829 silly lockFile bc79af5a-g-minimatch-minimatch-0-2-11-tgz http://registry.npmjs.org/minimatch/-/minimatch-0.2.11.tgz
+830 verbose lock http://registry.npmjs.org/minimatch/-/minimatch-0.2.11.tgz /Users/stevekinney/.npm/bc79af5a-g-minimatch-minimatch-0-2-11-tgz.lock
+831 verbose tar unpack /Users/stevekinney/.npm/cli/0.4.3/package.tgz
+832 verbose addRemoteTarball [ 'http://registry.npmjs.org/minimatch/-/minimatch-0.2.11.tgz',
+832 verbose addRemoteTarball   'a0ef5fa776aa6fbd3ce1ebb74efb8a48c6abf4db' ]
+833 silly lockFile 59ac6565-tevekinney-npm-cli-0-4-3-package /Users/stevekinney/.npm/cli/0.4.3/package
+834 verbose lock /Users/stevekinney/.npm/cli/0.4.3/package /Users/stevekinney/.npm/59ac6565-tevekinney-npm-cli-0-4-3-package.lock
+835 info retry fetch attempt 1 at 10:59:01
+836 verbose fetch to= /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741924-0.06226492510177195/tmp.tgz
+837 silly gunzTarPerm modes [ '755', '644' ]
+838 http GET http://registry.npmjs.org/minimatch/-/minimatch-0.2.11.tgz
+839 silly gunzTarPerm extractEntry package.json
+840 silly gunzTarPerm extractEntry README.md
+841 silly gunzTarPerm extractEntry cli.js
+842 http 200 http://registry.npmjs.org/shelljs/-/shelljs-0.1.2.tgz
+843 silly gunzTarPerm extractEntry index.js
+844 silly gunzTarPerm extractEntry examples/cat.js
+845 silly gunzTarPerm extractEntry examples/command.js
+846 silly gunzTarPerm extractEntry examples/echo.js
+847 silly gunzTarPerm extractEntry examples/glob.js
+848 silly gunzTarPerm extractEntry examples/long_desc.js
+849 silly gunzTarPerm extractEntry examples/progress.js
+850 silly gunzTarPerm extractEntry examples/sort.js
+851 silly gunzTarPerm extractEntry examples/spinner.js
+852 silly gunzTarPerm extractEntry examples/static.js
+853 silly gunzTarPerm extractEntry examples/static.coffee
+854 verbose read json /Users/stevekinney/.npm/cli/0.4.3/package/package.json
+855 silly lockFile 59ac6565-tevekinney-npm-cli-0-4-3-package /Users/stevekinney/.npm/cli/0.4.3/package
+856 silly shasum updated bytes 14534
+857 info shasum 43454b6b812d4075739b51d9c43190b145969bf6
+857 info shasum /Users/stevekinney/.npm/cli/0.4.3/package.tgz
+858 verbose from cache /Users/stevekinney/.npm/cli/0.4.3/package/package.json
+859 verbose chmod /Users/stevekinney/.npm/cli/0.4.3/package.tgz 644
+860 verbose chown /Users/stevekinney/.npm/cli/0.4.3/package.tgz [ 502, 20 ]
+861 silly lockFile 2f36aec7-stry-npmjs-org-cli-cli-0-4-3-tgz http://registry.npmjs.org/cli/-/cli-0.4.3.tgz
+862 silly lockFile 67960ed5-cli-0-4-3 cli@0.4.3
+863 http 200 http://registry.npmjs.org/minimatch/-/minimatch-0.2.11.tgz
+864 silly shasum updated bytes 16035
+865 info shasum a0ef5fa776aa6fbd3ce1ebb74efb8a48c6abf4db
+865 info shasum /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741924-0.06226492510177195/tmp.tgz
+866 verbose tar unpack /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741924-0.06226492510177195/tmp.tgz
+867 silly lockFile d12da494-1924-0-06226492510177195-package /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741924-0.06226492510177195/package
+868 verbose lock /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741924-0.06226492510177195/package /Users/stevekinney/.npm/d12da494-1924-0-06226492510177195-package.lock
+869 silly gunzTarPerm modes [ '755', '644' ]
+870 silly gunzTarPerm extractEntry package.json
+871 silly gunzTarPerm extractEntry README.md
+872 silly gunzTarPerm extractEntry LICENSE
+873 silly gunzTarPerm extractEntry minimatch.js
+874 silly gunzTarPerm extractEntry .travis.yml
+875 silly gunzTarPerm extractEntry test/basic.js
+876 silly gunzTarPerm extractEntry test/brace-expand.js
+877 silly gunzTarPerm extractEntry test/caching.js
+878 silly gunzTarPerm extractEntry test/defaults.js
+879 verbose read json /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741924-0.06226492510177195/package/package.json
+880 silly lockFile d12da494-1924-0-06226492510177195-package /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741924-0.06226492510177195/package
+881 verbose from cache /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741924-0.06226492510177195/package/package.json
+882 verbose tar pack [ '/Users/stevekinney/.npm/minimatch/0.2.11/package.tgz',
+882 verbose tar pack   '/var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741924-0.06226492510177195/package' ]
+883 verbose tarball /Users/stevekinney/.npm/minimatch/0.2.11/package.tgz
+884 verbose folder /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741924-0.06226492510177195/package
+885 silly lockFile c3d815b8-npm-minimatch-0-2-11-package-tgz /Users/stevekinney/.npm/minimatch/0.2.11/package.tgz
+886 verbose lock /Users/stevekinney/.npm/minimatch/0.2.11/package.tgz /Users/stevekinney/.npm/c3d815b8-npm-minimatch-0-2-11-package-tgz.lock
+887 silly lockFile c3d815b8-npm-minimatch-0-2-11-package-tgz /Users/stevekinney/.npm/minimatch/0.2.11/package.tgz
+888 silly lockFile 0b46b3d9-ney-npm-minimatch-0-2-11-package /Users/stevekinney/.npm/minimatch/0.2.11/package
+889 verbose lock /Users/stevekinney/.npm/minimatch/0.2.11/package /Users/stevekinney/.npm/0b46b3d9-ney-npm-minimatch-0-2-11-package.lock
+890 silly lockFile 0b46b3d9-ney-npm-minimatch-0-2-11-package /Users/stevekinney/.npm/minimatch/0.2.11/package
+891 verbose tar unpack /Users/stevekinney/.npm/minimatch/0.2.11/package.tgz
+892 silly lockFile 0b46b3d9-ney-npm-minimatch-0-2-11-package /Users/stevekinney/.npm/minimatch/0.2.11/package
+893 verbose lock /Users/stevekinney/.npm/minimatch/0.2.11/package /Users/stevekinney/.npm/0b46b3d9-ney-npm-minimatch-0-2-11-package.lock
+894 silly gunzTarPerm modes [ '755', '644' ]
+895 silly gunzTarPerm extractEntry package.json
+896 silly gunzTarPerm extractEntry README.md
+897 silly gunzTarPerm extractEntry LICENSE
+898 silly gunzTarPerm extractEntry minimatch.js
+899 silly gunzTarPerm extractEntry .travis.yml
+900 silly gunzTarPerm extractEntry test/basic.js
+901 silly gunzTarPerm extractEntry test/brace-expand.js
+902 silly gunzTarPerm extractEntry test/caching.js
+903 silly gunzTarPerm extractEntry test/defaults.js
+904 verbose read json /Users/stevekinney/.npm/minimatch/0.2.11/package/package.json
+905 silly lockFile 0b46b3d9-ney-npm-minimatch-0-2-11-package /Users/stevekinney/.npm/minimatch/0.2.11/package
+906 silly shasum updated bytes 16028
+907 info shasum 9cc11ab7ca0b807829098a3140e25a8006118d1a
+907 info shasum /Users/stevekinney/.npm/minimatch/0.2.11/package.tgz
+908 verbose from cache /Users/stevekinney/.npm/minimatch/0.2.11/package/package.json
+909 verbose chmod /Users/stevekinney/.npm/minimatch/0.2.11/package.tgz 644
+910 verbose chown /Users/stevekinney/.npm/minimatch/0.2.11/package.tgz [ 502, 20 ]
+911 silly lockFile bc79af5a-g-minimatch-minimatch-0-2-11-tgz http://registry.npmjs.org/minimatch/-/minimatch-0.2.11.tgz
+912 silly lockFile 9e75bdf0-minimatch-0-2-11 minimatch@0.2.11
+913 silly lockFile 38c78372-minimatch-0-x-x minimatch@0.x.x
+914 silly shasum updated bytes 29243
+915 info shasum 1619ff4e5267f669be14595821be1b716c7c74c0
+915 info shasum /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741775-0.26428110990673304/tmp.tgz
+916 verbose tar unpack /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741775-0.26428110990673304/tmp.tgz
+917 silly lockFile 10949e34-1775-0-26428110990673304-package /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741775-0.26428110990673304/package
+918 verbose lock /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741775-0.26428110990673304/package /Users/stevekinney/.npm/10949e34-1775-0-26428110990673304-package.lock
+919 silly gunzTarPerm modes [ '755', '644' ]
+920 silly gunzTarPerm extractEntry package.json
+921 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+922 silly gunzTarPerm extractEntry .npmignore
+923 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+924 silly gunzTarPerm extractEntry README.md
+925 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+926 silly gunzTarPerm extractEntry LICENSE
+927 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+928 silly gunzTarPerm extractEntry global.js
+929 silly gunzTarPerm modified mode [ 'global.js', 438, 420 ]
+930 silly gunzTarPerm extractEntry make.js
+931 silly gunzTarPerm modified mode [ 'make.js', 438, 420 ]
+932 silly gunzTarPerm extractEntry shell.js
+933 silly gunzTarPerm modified mode [ 'shell.js', 438, 420 ]
+934 silly gunzTarPerm extractEntry bin/shjs
+935 silly gunzTarPerm modified mode [ 'bin/shjs', 511, 493 ]
+936 silly gunzTarPerm extractEntry .documentup.json
+937 silly gunzTarPerm modified mode [ '.documentup.json', 438, 420 ]
+938 silly gunzTarPerm extractEntry jshint.json
+939 silly gunzTarPerm modified mode [ 'jshint.json', 438, 420 ]
+940 silly gunzTarPerm extractEntry scripts/docs.js
+941 silly gunzTarPerm modified mode [ 'scripts/docs.js', 511, 493 ]
+942 silly gunzTarPerm extractEntry scripts/run-tests.js
+943 silly gunzTarPerm modified mode [ 'scripts/run-tests.js', 511, 493 ]
+944 silly gunzTarPerm extractEntry .travis.yml
+945 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+946 silly gunzTarPerm extractEntry test/.npmignore
+947 silly gunzTarPerm modified mode [ 'test/.npmignore', 438, 420 ]
+948 silly gunzTarPerm extractEntry test/exec.js
+949 silly gunzTarPerm modified mode [ 'test/exec.js', 438, 420 ]
+950 silly gunzTarPerm extractEntry test/find.js
+951 silly gunzTarPerm modified mode [ 'test/find.js', 438, 420 ]
+952 silly gunzTarPerm extractEntry test/grep.js
+953 silly gunzTarPerm modified mode [ 'test/grep.js', 438, 420 ]
+954 silly gunzTarPerm extractEntry test/env.js
+955 silly gunzTarPerm modified mode [ 'test/env.js', 438, 420 ]
+956 silly gunzTarPerm extractEntry test/cat.js
+957 silly gunzTarPerm modified mode [ 'test/cat.js', 438, 420 ]
+958 silly gunzTarPerm extractEntry test/mkdir.js
+959 silly gunzTarPerm modified mode [ 'test/mkdir.js', 438, 420 ]
+960 silly gunzTarPerm extractEntry test/mv.js
+961 silly gunzTarPerm modified mode [ 'test/mv.js', 438, 420 ]
+962 silly gunzTarPerm extractEntry test/popd.js
+963 silly gunzTarPerm modified mode [ 'test/popd.js', 438, 420 ]
+964 silly gunzTarPerm extractEntry test/pushd.js
+965 silly gunzTarPerm modified mode [ 'test/pushd.js', 438, 420 ]
+966 silly gunzTarPerm extractEntry test/echo.js
+967 silly gunzTarPerm modified mode [ 'test/echo.js', 438, 420 ]
+968 silly gunzTarPerm extractEntry test/pwd.js
+969 silly gunzTarPerm modified mode [ 'test/pwd.js', 438, 420 ]
+970 silly gunzTarPerm extractEntry test/dirs.js
+971 silly gunzTarPerm modified mode [ 'test/dirs.js', 438, 420 ]
+972 silly gunzTarPerm extractEntry test/to.js
+973 silly gunzTarPerm modified mode [ 'test/to.js', 438, 420 ]
+974 silly gunzTarPerm extractEntry test/cp.js
+975 silly gunzTarPerm modified mode [ 'test/cp.js', 438, 420 ]
+976 silly gunzTarPerm extractEntry test/rm.js
+977 silly gunzTarPerm modified mode [ 'test/rm.js', 438, 420 ]
+978 silly gunzTarPerm extractEntry test/config.js
+979 silly gunzTarPerm modified mode [ 'test/config.js', 438, 420 ]
+980 silly gunzTarPerm extractEntry test/sed.js
+981 silly gunzTarPerm modified mode [ 'test/sed.js', 438, 420 ]
+982 silly gunzTarPerm extractEntry test/chmod.js
+983 silly gunzTarPerm modified mode [ 'test/chmod.js', 438, 420 ]
+984 silly gunzTarPerm extractEntry test/tempdir.js
+985 silly gunzTarPerm modified mode [ 'test/tempdir.js', 438, 420 ]
+986 silly gunzTarPerm extractEntry test/cd.js
+987 silly gunzTarPerm modified mode [ 'test/cd.js', 438, 420 ]
+988 silly gunzTarPerm extractEntry test/test.js
+989 silly gunzTarPerm modified mode [ 'test/test.js', 438, 420 ]
+990 silly gunzTarPerm extractEntry test/ls.js
+991 silly gunzTarPerm modified mode [ 'test/ls.js', 438, 420 ]
+992 silly gunzTarPerm extractEntry test/which.js
+993 silly gunzTarPerm modified mode [ 'test/which.js', 438, 420 ]
+994 silly gunzTarPerm extractEntry test/make.js
+995 silly gunzTarPerm modified mode [ 'test/make.js', 438, 420 ]
+996 silly gunzTarPerm extractEntry test/resources/file1.js
+997 silly gunzTarPerm modified mode [ 'test/resources/file1.js', 438, 420 ]
+998 silly gunzTarPerm extractEntry test/resources/file2.js
+999 silly gunzTarPerm modified mode [ 'test/resources/file2.js', 438, 420 ]
+1000 silly gunzTarPerm extractEntry test/resources/file2
+1001 silly gunzTarPerm modified mode [ 'test/resources/file2', 438, 420 ]
+1002 silly gunzTarPerm extractEntry test/resources/external/node_script.js
+1003 silly gunzTarPerm modified mode [ 'test/resources/external/node_script.js', 511, 493 ]
+1004 silly gunzTarPerm extractEntry test/resources/file1
+1005 silly gunzTarPerm modified mode [ 'test/resources/file1', 438, 420 ]
+1006 silly gunzTarPerm extractEntry test/resources/a.txt
+1007 silly gunzTarPerm modified mode [ 'test/resources/a.txt', 438, 420 ]
+1008 silly gunzTarPerm extractEntry test/resources/file1.txt
+1009 silly gunzTarPerm modified mode [ 'test/resources/file1.txt', 438, 420 ]
+1010 silly gunzTarPerm extractEntry test/resources/chmod/a/b/c/.npmignore
+1011 silly gunzTarPerm modified mode [ 'test/resources/chmod/a/b/c/.npmignore', 438, 420 ]
+1012 silly gunzTarPerm extractEntry test/resources/chmod/b/a/b/.npmignore
+1013 silly gunzTarPerm modified mode [ 'test/resources/chmod/b/a/b/.npmignore', 511, 493 ]
+1014 silly gunzTarPerm extractEntry test/resources/chmod/c/a/b/.npmignore
+1015 silly gunzTarPerm modified mode [ 'test/resources/chmod/c/a/b/.npmignore', 438, 420 ]
+1016 silly gunzTarPerm extractEntry test/resources/chmod/file1
+1017 silly gunzTarPerm modified mode [ 'test/resources/chmod/file1', 438, 420 ]
+1018 silly gunzTarPerm extractEntry test/resources/cp/a
+1019 silly gunzTarPerm modified mode [ 'test/resources/cp/a', 438, 420 ]
+1020 silly gunzTarPerm extractEntry test/resources/cp/b
+1021 silly gunzTarPerm modified mode [ 'test/resources/cp/b', 438, 420 ]
+1022 silly gunzTarPerm extractEntry test/resources/cp/dir_a/z
+1023 silly gunzTarPerm modified mode [ 'test/resources/cp/dir_a/z', 438, 420 ]
+1024 silly gunzTarPerm extractEntry test/resources/cp/dir_b/dir_b_a/dir_b_a_a/z
+1025 silly gunzTarPerm modified mode [ 'test/resources/cp/dir_b/dir_b_a/dir_b_a_a/z', 438, 420 ]
+1026 silly gunzTarPerm extractEntry test/resources/file2.txt
+1027 silly gunzTarPerm modified mode [ 'test/resources/file2.txt', 438, 420 ]
+1028 silly gunzTarPerm extractEntry test/resources/find/.hidden
+1029 silly gunzTarPerm modified mode [ 'test/resources/find/.hidden', 438, 420 ]
+1030 silly gunzTarPerm extractEntry test/resources/find/a
+1031 silly gunzTarPerm modified mode [ 'test/resources/find/a', 438, 420 ]
+1032 silly gunzTarPerm extractEntry test/resources/find/b
+1033 silly gunzTarPerm modified mode [ 'test/resources/find/b', 438, 420 ]
+1034 silly gunzTarPerm extractEntry test/resources/find/dir1/a_dir1
+1035 silly gunzTarPerm modified mode [ 'test/resources/find/dir1/a_dir1', 438, 420 ]
+1036 silly gunzTarPerm extractEntry test/resources/find/dir1/dir11/a_dir11
+1037 silly gunzTarPerm modified mode [ 'test/resources/find/dir1/dir11/a_dir11', 438, 420 ]
+1038 silly gunzTarPerm extractEntry test/resources/find/dir2/a_dir1
+1039 silly gunzTarPerm modified mode [ 'test/resources/find/dir2/a_dir1', 438, 420 ]
+1040 silly gunzTarPerm extractEntry test/resources/issue44/main.js
+1041 silly gunzTarPerm modified mode [ 'test/resources/issue44/main.js', 438, 420 ]
+1042 silly gunzTarPerm extractEntry test/resources/ls/file1.js
+1043 silly gunzTarPerm modified mode [ 'test/resources/ls/file1.js', 438, 420 ]
+1044 silly gunzTarPerm extractEntry test/resources/ls/file2.js
+1045 silly gunzTarPerm modified mode [ 'test/resources/ls/file2.js', 438, 420 ]
+1046 silly gunzTarPerm extractEntry test/resources/ls/.hidden_dir/nada
+1047 silly gunzTarPerm modified mode [ 'test/resources/ls/.hidden_dir/nada', 438, 420 ]
+1048 silly gunzTarPerm extractEntry test/resources/ls/.hidden_file
+1049 silly gunzTarPerm modified mode [ 'test/resources/ls/.hidden_file', 438, 420 ]
+1050 silly gunzTarPerm extractEntry test/resources/ls/a_dir/.hidden_dir/nada
+1051 silly gunzTarPerm modified mode [ 'test/resources/ls/a_dir/.hidden_dir/nada', 438, 420 ]
+1052 silly gunzTarPerm extractEntry test/resources/ls/a_dir/b_dir/z
+1053 silly gunzTarPerm modified mode [ 'test/resources/ls/a_dir/b_dir/z', 438, 420 ]
+1054 silly gunzTarPerm extractEntry test/resources/ls/a_dir/nada
+1055 silly gunzTarPerm modified mode [ 'test/resources/ls/a_dir/nada', 438, 420 ]
+1056 silly gunzTarPerm extractEntry test/resources/ls/file1
+1057 silly gunzTarPerm modified mode [ 'test/resources/ls/file1', 438, 420 ]
+1058 silly gunzTarPerm extractEntry test/resources/ls/file2
+1059 silly gunzTarPerm modified mode [ 'test/resources/ls/file2', 438, 420 ]
+1060 silly gunzTarPerm extractEntry test/resources/ls/filename(with)[chars$]^that.must+be-escaped
+1061 silly gunzTarPerm modified mode [ 'test/resources/ls/filename(with)[chars$]^that.must+be-escaped',
+1061 silly gunzTarPerm   438,
+1061 silly gunzTarPerm   420 ]
+1062 silly gunzTarPerm extractEntry test/resources/pushd/a/dummy
+1063 silly gunzTarPerm modified mode [ 'test/resources/pushd/a/dummy', 438, 420 ]
+1064 silly gunzTarPerm extractEntry test/resources/pushd/b/c/dummy
+1065 silly gunzTarPerm modified mode [ 'test/resources/pushd/b/c/dummy', 438, 420 ]
+1066 verbose read json /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741775-0.26428110990673304/package/package.json
+1067 silly lockFile 10949e34-1775-0-26428110990673304-package /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741775-0.26428110990673304/package
+1068 verbose from cache /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741775-0.26428110990673304/package/package.json
+1069 verbose tar pack [ '/Users/stevekinney/.npm/shelljs/0.1.2/package.tgz',
+1069 verbose tar pack   '/var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741775-0.26428110990673304/package' ]
+1070 verbose tarball /Users/stevekinney/.npm/shelljs/0.1.2/package.tgz
+1071 verbose folder /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412741775-0.26428110990673304/package
+1072 silly lockFile fd999e8c-ey-npm-shelljs-0-1-2-package-tgz /Users/stevekinney/.npm/shelljs/0.1.2/package.tgz
+1073 verbose lock /Users/stevekinney/.npm/shelljs/0.1.2/package.tgz /Users/stevekinney/.npm/fd999e8c-ey-npm-shelljs-0-1-2-package-tgz.lock
+1074 silly lockFile fd999e8c-ey-npm-shelljs-0-1-2-package-tgz /Users/stevekinney/.npm/shelljs/0.1.2/package.tgz
+1075 silly lockFile f5011979-kinney-npm-shelljs-0-1-2-package /Users/stevekinney/.npm/shelljs/0.1.2/package
+1076 verbose lock /Users/stevekinney/.npm/shelljs/0.1.2/package /Users/stevekinney/.npm/f5011979-kinney-npm-shelljs-0-1-2-package.lock
+1077 silly lockFile f5011979-kinney-npm-shelljs-0-1-2-package /Users/stevekinney/.npm/shelljs/0.1.2/package
+1078 verbose tar unpack /Users/stevekinney/.npm/shelljs/0.1.2/package.tgz
+1079 silly lockFile f5011979-kinney-npm-shelljs-0-1-2-package /Users/stevekinney/.npm/shelljs/0.1.2/package
+1080 verbose lock /Users/stevekinney/.npm/shelljs/0.1.2/package /Users/stevekinney/.npm/f5011979-kinney-npm-shelljs-0-1-2-package.lock
+1081 silly gunzTarPerm modes [ '755', '644' ]
+1082 silly gunzTarPerm extractEntry package.json
+1083 silly gunzTarPerm extractEntry .npmignore
+1084 silly gunzTarPerm extractEntry README.md
+1085 silly gunzTarPerm extractEntry LICENSE
+1086 silly gunzTarPerm extractEntry global.js
+1087 silly gunzTarPerm extractEntry make.js
+1088 silly gunzTarPerm extractEntry shell.js
+1089 silly gunzTarPerm extractEntry bin/shjs
+1090 silly gunzTarPerm extractEntry .documentup.json
+1091 silly gunzTarPerm extractEntry jshint.json
+1092 silly gunzTarPerm extractEntry scripts/docs.js
+1093 silly gunzTarPerm extractEntry scripts/run-tests.js
+1094 silly gunzTarPerm extractEntry .travis.yml
+1095 silly gunzTarPerm extractEntry test/.npmignore
+1096 silly gunzTarPerm extractEntry test/exec.js
+1097 silly gunzTarPerm extractEntry test/find.js
+1098 silly gunzTarPerm extractEntry test/grep.js
+1099 silly gunzTarPerm extractEntry test/env.js
+1100 silly gunzTarPerm extractEntry test/cat.js
+1101 silly gunzTarPerm extractEntry test/mkdir.js
+1102 silly gunzTarPerm extractEntry test/mv.js
+1103 silly gunzTarPerm extractEntry test/popd.js
+1104 silly gunzTarPerm extractEntry test/pushd.js
+1105 silly gunzTarPerm extractEntry test/echo.js
+1106 silly gunzTarPerm extractEntry test/pwd.js
+1107 silly gunzTarPerm extractEntry test/dirs.js
+1108 silly gunzTarPerm extractEntry test/to.js
+1109 silly gunzTarPerm extractEntry test/cp.js
+1110 silly gunzTarPerm extractEntry test/rm.js
+1111 silly gunzTarPerm extractEntry test/config.js
+1112 silly gunzTarPerm extractEntry test/sed.js
+1113 silly gunzTarPerm extractEntry test/chmod.js
+1114 silly gunzTarPerm extractEntry test/tempdir.js
+1115 silly gunzTarPerm extractEntry test/cd.js
+1116 silly gunzTarPerm extractEntry test/test.js
+1117 silly gunzTarPerm extractEntry test/ls.js
+1118 silly gunzTarPerm extractEntry test/which.js
+1119 silly gunzTarPerm extractEntry test/make.js
+1120 silly gunzTarPerm extractEntry test/resources/file1.js
+1121 silly gunzTarPerm extractEntry test/resources/file2.js
+1122 silly gunzTarPerm extractEntry test/resources/file2
+1123 silly gunzTarPerm extractEntry test/resources/external/node_script.js
+1124 silly gunzTarPerm extractEntry test/resources/file1
+1125 silly gunzTarPerm extractEntry test/resources/a.txt
+1126 silly gunzTarPerm extractEntry test/resources/file1.txt
+1127 silly gunzTarPerm extractEntry test/resources/chmod/a/b/c/.npmignore
+1128 silly gunzTarPerm extractEntry test/resources/chmod/b/a/b/.npmignore
+1129 silly gunzTarPerm extractEntry test/resources/chmod/c/a/b/.npmignore
+1130 silly gunzTarPerm extractEntry test/resources/chmod/file1
+1131 silly gunzTarPerm extractEntry test/resources/cp/a
+1132 silly gunzTarPerm extractEntry test/resources/cp/b
+1133 silly gunzTarPerm extractEntry test/resources/cp/dir_a/z
+1134 silly gunzTarPerm extractEntry test/resources/cp/dir_b/dir_b_a/dir_b_a_a/z
+1135 silly gunzTarPerm extractEntry test/resources/file2.txt
+1136 silly gunzTarPerm extractEntry test/resources/find/.hidden
+1137 silly gunzTarPerm extractEntry test/resources/find/a
+1138 silly gunzTarPerm extractEntry test/resources/find/b
+1139 silly gunzTarPerm extractEntry test/resources/find/dir1/a_dir1
+1140 silly gunzTarPerm extractEntry test/resources/find/dir1/dir11/a_dir11
+1141 silly gunzTarPerm extractEntry test/resources/find/dir2/a_dir1
+1142 silly gunzTarPerm extractEntry test/resources/issue44/main.js
+1143 silly gunzTarPerm extractEntry test/resources/ls/file1.js
+1144 silly gunzTarPerm extractEntry test/resources/ls/file2.js
+1145 silly gunzTarPerm extractEntry test/resources/ls/.hidden_dir/nada
+1146 silly gunzTarPerm extractEntry test/resources/ls/.hidden_file
+1147 silly gunzTarPerm extractEntry test/resources/ls/a_dir/.hidden_dir/nada
+1148 silly gunzTarPerm extractEntry test/resources/ls/a_dir/b_dir/z
+1149 silly gunzTarPerm extractEntry test/resources/ls/a_dir/nada
+1150 silly gunzTarPerm extractEntry test/resources/ls/file1
+1151 silly gunzTarPerm extractEntry test/resources/ls/file2
+1152 silly gunzTarPerm extractEntry test/resources/ls/filename(with)[chars$]^that.must+be-escaped
+1153 silly gunzTarPerm extractEntry test/resources/pushd/a/dummy
+1154 silly gunzTarPerm extractEntry test/resources/pushd/b/c/dummy
+1155 verbose read json /Users/stevekinney/.npm/shelljs/0.1.2/package/package.json
+1156 silly lockFile f5011979-kinney-npm-shelljs-0-1-2-package /Users/stevekinney/.npm/shelljs/0.1.2/package
+1157 silly shasum updated bytes 29241
+1158 info shasum d80756c5cccb8afd04fa8515af1e6bf03ec3a4ae
+1158 info shasum /Users/stevekinney/.npm/shelljs/0.1.2/package.tgz
+1159 verbose from cache /Users/stevekinney/.npm/shelljs/0.1.2/package/package.json
+1160 verbose chmod /Users/stevekinney/.npm/shelljs/0.1.2/package.tgz 644
+1161 verbose chown /Users/stevekinney/.npm/shelljs/0.1.2/package.tgz [ 502, 20 ]
+1162 silly lockFile 3aef078c-js-org-shelljs-shelljs-0-1-2-tgz http://registry.npmjs.org/shelljs/-/shelljs-0.1.2.tgz
+1163 silly lockFile de1e06d9-shelljs-0-1-2 shelljs@0.1.2
+1164 silly lockFile a9a49742-shelljs shelljs@*
+1165 info retry fetch attempt 2 at 10:59:10
+1166 verbose fetch to= /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412740833-0.6209884274285287/tmp.tgz
+1167 http GET https://github.com/ariya/esprima/tarball/master
+1168 error fetch failed https://github.com/ariya/esprima/tarball/master
+1169 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=socket hang up
+1170 info retry fetch attempt 3 at 11:00:11
+1171 verbose fetch to= /var/folders/87/p8bmnnls1ng3kylf_fskkqzr0000gp/T/npm-22634/1362412740833-0.6209884274285287/tmp.tgz
+1172 http GET https://github.com/ariya/esprima/tarball/master
+1173 error fetch failed https://github.com/ariya/esprima/tarball/master
+1174 silly lockFile d0b8fe59-com-ariya-esprima-tarball-master https://github.com/ariya/esprima/tarball/master
+1175 verbose about to build /usr/local/lib/node_modules/jshint
+1176 info /usr/local/lib/node_modules/jshint unbuild
+1177 verbose from cache /usr/local/lib/node_modules/jshint/package.json
+1178 info preuninstall jshint@1.0.0
+1179 info uninstall jshint@1.0.0
+1180 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild jshint@1.0.0
+1181 verbose /usr/local/bin,[object Object] binRoot
+1182 info postuninstall jshint@1.0.0
+1183 error Error: tunneling socket could not be established, cause=socket hang up
+1183 error     at ClientRequest.onError (/usr/local/lib/node_modules/npm/node_modules/request/tunnel.js:161:17)
+1183 error     at ClientRequest.g (events.js:156:14)
+1183 error     at ClientRequest.emit (events.js:67:17)
+1183 error     at CleartextStream.<anonymous> (http.js:1137:11)
+1183 error     at CleartextStream.emit (events.js:67:17)
+1183 error     at SecurePair.<anonymous> (tls.js:1124:15)
+1183 error     at SecurePair.emit (events.js:67:17)
+1183 error     at SecurePair.error (tls.js:806:10)
+1183 error     at EncryptedStream._done (tls.js:283:17)
+1183 error     at EncryptedStream._pull (tls.js:426:12)
+1184 error If you need help, you may report this log at:
+1184 error     <http://github.com/isaacs/npm/issues>
+1184 error or email it to:
+1184 error     <npm-@googlegroups.com>
+1185 error System Darwin 12.2.0
+1186 error command "node" "/usr/local/bin/npm" "install" "-g" "jshint"
+1187 error cwd /Users/stevekinney/Dropbox/Projects/node-phone-formatter
+1188 error node -v v0.6.12
+1189 error npm -v 1.1.61
+1190 error code ECONNRESET
+1191 verbose exit [ 1, true ]
