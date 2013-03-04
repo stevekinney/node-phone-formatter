@@ -2,10 +2,10 @@ module.exports = {
   
   normalize: function extract(phoneNumber) {
 
-  	return phoneNumber.replace(
-  		/^[\+\d{1,3}\-\s]*\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/,
-  		"$1$2$3"
-  	);
+    return phoneNumber.replace(
+      /^[\+\d{1,3}\-\s]*\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/,
+      "$1$2$3"
+    );
 
   },
 
@@ -19,8 +19,8 @@ module.exports = {
     for ( var i = 0, l = phoneNumber.length; i < l; i++ ) {
       formatString = formatString.replace("N", phoneNumber[i]);
     }
-
-  	return formatString;
+  
+    return formatString;
 
   },
 
