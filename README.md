@@ -24,6 +24,15 @@ phoneFormatter.format("2125551212", "(NNN) NNN-NNNN");
 // returns "(212) 555-1212"
 ```
 
+### But I want to do both at the same time!
+
+That's cool. Pass some extra configuration options to the format method.
+
+```javascript
+phoneFormatter.format("(212) 555-1212", "NNN.NNN.NNNN", {normalize: true})
+// returns "212.555.1212"
+```
+
 ## Documentation
 
 As it stands, there are only two methods, `normalize` and `format`. They are pretty much fleshed out above. That said, I'm reserving this second for future greatness.
