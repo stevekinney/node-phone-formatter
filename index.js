@@ -11,8 +11,8 @@ module.exports = {
 
   format: function format(phoneNumber, formatString, options) {
 
-    // Normalize the phone number first if asked to do so in the options
-    if (options && options.normalize === true) {
+    // Normalize the phone number first unless not asked to do so in the options
+    if (!options || !options.normalize) {
       phoneNumber = this.normalize(phoneNumber)
     };
 

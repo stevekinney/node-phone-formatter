@@ -119,7 +119,7 @@ describe('Format', function() {
     
     it('should be able to normalize a phone number before parsing it', function() {
       assert.deepEqual(
-        PhoneFormatter.format("(212) 555-1212", "NNN.NNN.NNNN", {normalize: true}),
+        PhoneFormatter.format("(212) 555-1212", "NNN.NNN.NNNN"),
         "212.555.1212"
       );
     });

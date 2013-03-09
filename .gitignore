@@ -4,3 +4,9 @@
 node_modules/
 node_modules/*
 /npm-debug.log
+
+node_modules/.bin/mocha
+
+node_modules/.bin/_mocha
+
+node_modules/mocha/node_modules/.bin/jade
