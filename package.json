@@ -1,7 +1,7 @@
 {
   "name": "phone-formatter",
   "description": "Parse and format telephone numbers.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/stevekinney/node-phone-formatter",
   "author": {
     "name": "Steve Kinney",
