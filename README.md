@@ -26,11 +26,18 @@ phoneFormatter.format("2125551212", "(NNN) NNN-NNNN");
 
 ### But I want to do both at the same time!
 
-That's cool. Pass some extra configuration options to the format method.
+That's cool. Do it.
 
 ```javascript
-phoneFormatter.format("(212) 555-1212", "NNN.NNN.NNNN", {normalize: true})
+phoneFormatter.format("(212) 555-1212", "NNN.NNN.NNNN")
 // returns "212.555.1212"
+```
+
+If for some reason, this is not what you want: you can turn it off.
+
+```javascript
+phoneFormatter.format("(212) 555-1212", "NNN.NNN.NNNN", {normalize: false})
+// Will probably crash and burn hideously. What are you even doing?
 ```
 
 ## Documentation
@@ -65,6 +72,7 @@ Right now, this library is incredibly American-centric and that kind of stinks, 
 
 ## Release History
 
+* 0.0.2: Normalize phone numbers by default.
 * 0.0.1: Just two methods and some tests.
 
 ## License
