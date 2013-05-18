@@ -58,7 +58,7 @@ I can confirm that Phone Formatter can normalize the following formats.
 * +1 (212) 555-1212
 * 12125551212
 * +45 (212) 555-1212
-* 212555121
+* 2125551212
 
 It may handle ever more, but I haven't tested it.
 
