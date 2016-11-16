@@ -23,13 +23,13 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">= 0.6.0"
+    "node": ">= 0.12"
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha"
   },
   "devDependencies": {
-    "mocha": "~1.8.1"
+    "mocha": "^3.1.2"
   },
   "keywords": []
 }
